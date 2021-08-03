@@ -1,0 +1,97 @@
+## Issue 12 - July 2021 pt1
+
+### writeups
+- [Anatomy of a Red-Team exercise – Chapter 3](https://ictexpertsluxembourg.lu/technical-corner/anatomy-of-a-red-team-exercise-chapter-3/)
+    - desc: Continuation of 'Anatomy of a Red-Team exercise' series
+    - tags: redteam
+- [Initial Access: Macro Cheat sheet](https://lsteelo.medium.com/initial-access-macro-cheat-sheet-bcbaf3e5c981)
+    - desc: Descriptions of various Macro techniques
+    - tags: redteam, phish
+- [Get a Windows 10 development environment](https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/)
+    - desc: free win 10 dev VMs
+    - tags: windows
+- [Process Creation is Dead, Long Live Process Creation — Adding BOFs Support to PEzor](https://iwantmore.pizza/posts/PEzor4.html)
+    - desc: PEzor BOF
+    - tags: malwaredev
+- [Don’t Be Rude, Stay: Avoiding Fork&Run .NET Execution With InlineExecute-Assembly](https://securityintelligence.com/posts/net-execution-inlineexecute-assembly/)
+    - desc: BOF/Inline execute-assembly
+    - tags: redteam, malwaredev
+- [Abusing Resource-Based Constrained Delegation (RBCD) using Linux](https://www.alteredsecurity.com/post/resource-based-constrained-delegation-rbcd)
+    - desc: RBCD with Linux
+    - tags: redteam, windows, exploit
+ - [Obtaining LAPS Passwords Through LDAP Relaying Attacks](https://www.praetorian.com/blog/obtaining-laps-passwords-through-ldap-relaying-attacks/)
+    - desc: Stealing LAPS creds
+    - tags: windows, exploit, redteam
+- [Evasive Maneuvers | Massive IcedID Campaign Aims For Stealth with Benign Macros](https://labs.sentinelone.com/evasive-maneuvers-massive-icedid-campaign-aims-for-stealth-with-benign-macros/)
+    - desc: evasive macro research
+    - tags: exploit, windows, redteam, phish
+- [Red Team Privilege Escalation – RBCD Based Privilege Escalation – Part 2](https://www.praetorian.com/blog/red-team-privilege-escalation-rbcd-based-privilege-escalation-part-2/)
+    - desc: Resource Based Constrained Delegation
+    - tags: windows, exploit, redteam
+
+### tools
+- [The Extended BApp Store](https://apps.burpsuite.guide/)
+    - desc: One stop shop for burp extensions
+    - tags: web
+- [CVE-2021-3156 LPE POC (kill sudo)](https://github.com/worawit/CVE-2021-3156)
+    - desc: Python LPE POC
+    - tags: privesc, linux
+- [dnMerge](https://github.com/CCob/dnMerge)
+    - desc: A lightweight .NET assembly dependency merger that uses dnLib and 7zip's LZMA SDK for compressing dependant assemblies. 
+    - tags: malwaredev
+    - more: [dnMerge intro](https://ethicalchaos.dev/2021/07/04/merging-c-assemblies-using-dnmerge/)
+- [Print Nightmare](https://github.com/afwu/PrintNightmare)
+    - desc: C++ version of PrintNightmare
+    - tags: windows, exploit
+- [Impacket Print Nightmare](https://github.com/cube0x0/CVE-2021-1675)
+    - desc: impacket version of PrintNightmare
+    - tags: windows, exploit
+- [Injector](https://github.com/0xDivyanshu/Injector)
+    - desc: Complete arsenal of memory injection techniques
+    - tags: malwaredev
+- [Invoke-Nightmare](https://github.com/calebstewart/CVE-2021-1675)
+    - desc: powershell PrintNightmare
+    - tags: windows, exploit
+- [Docker-PrintNightmare](https://github.com/real-acmkan/docker-printernightmare)
+    - desc: docker image for PrintNightmare
+    - tags: windows, exploit
+- [spoofing-office-macro](https://github.com/christophetd/spoofing-office-macro)
+    - desc: PoC of a VBA macro spawning a process with a spoofed parent and command line. 
+    - tags: redteam, phish
+- [bflat](https://github.com/MichalStrehovsky/bflat)
+    - desc: C# as you know it but with Go-inspired tooling
+    - tags: malwaredev
+- [PayloadAutomation](https://github.com/emcghee/PayloadAutomation)
+    - desc: Runner/dropper payload automation framework
+    - tags: malwaredev
+    - more: [Introducing Striker and the Payload Automation Libraries](http://blog.redxorblue.com/2021/06/introducing-striker-and-payload.html)
+- [Evasor](https://github.com/cyberark/Evasor)
+    - desc: A tool to be used in post exploitation phase for blue and red teams to bypass APPLICATIONCONTROL policies 
+    - tags: redteam, windows, exploit, malwaredev
+- [Backstab](https://github.com/Yaxser/Backstab)
+    - desc: A tool to kill antimalware protected processes 
+    - tags: malwaredev
+- [InlineExecute-Assembly](https://github.com/anthemtotheego/InlineExecute-Assembly)
+    - desc: BOF to perform in process .NET assembly execution
+    - tags: redteam
+- [Invoke-BuildAnonymousSMBServer](https://github.com/3gstudent/Invoke-BuildAnonymousSMBServer)
+    - desc: Use to build an anonymous SMB file server. 
+    - tags: windows, utils
+- [TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+    - desc: Azure JWT Token Manipulation Toolset
+    - tags: exploit, cloud
+ - [gMSADumper](https://github.com/micahvandeusen/gMSADumper)
+    - desc: Reads any gMSA password blobs the user can access and parses the values. 
+    - tags: redteam
+- [msspray.py](https://github.com/SecurityRiskAdvisors/msspray)
+    - desc: Password attacks and MFA validation against various endpoints in Azure and Office 365
+    - tags: redteam, windows, exploit
+- [SharpPhish](https://github.com/Yaxser/SharpPhish)
+    - desc:  outlook COM objects to create convincing phishing emails without the user noticing
+    - tags: redteam, phish
+- [hakrawlerx8chain](https://github.com/improphethacker/hakrawlerx8chain)
+    - desc: wrapper around hakrawler that implements data sanitization and parameter discovery (x8)
+    - tags: web, recon
+- [x8](https://github.com/Sh1Yo/x8)
+    - Rust-based parameter discovery tool
+    - tags: web, recon, exploit

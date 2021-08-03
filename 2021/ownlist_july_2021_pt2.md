@@ -1,0 +1,149 @@
+## Issue 12 - July 2021 pt2
+
+### writeups
+- [FuzzySecurity Presentations](https://github.com/FuzzySecurity/Presentations)
+    - desc: Collection of presentation resources.
+    - tags: exploit
+- [CredBandit (In memory BOF MiniDump) – Tool review – Part 1](https://blog.cobaltstrike.com/2021/07/13/credbandit-a-review-of-a-tool-developed-built-by-the-cobalt-strike-user-community/)
+    - desc: CS BOF of CredBandit
+    - tags: redteam
+- [Hide-HTA-window-for-RedTeam](https://blog.sevagas.com/?Hide-HTA-window-for-RedTeam)
+    - desc: hide hta windows
+    - tags: phish, redteam, windows, exploit
+- [Ten process injection techniques: A technical survey of common and trending process injection techniques](https://www.elastic.co/blog/ten-process-injection-techniques-technical-survey-common-and-trending-process)
+    - desc: 10 proc injection techniques
+    - tags: malwaredev
+- [On Disk, The Devil’s In The Details](https://www.solomonsklash.io/devils-in-the-details.html)
+    - desc: data about data
+    - tags: malwaredev
+- [A guide to non-conventional WAF/IDS evasion techniques](https://blog.0xffff.info/2021/07/24/a-guide-to-non-conventional-waf-ids-evasion-techniques/)
+    - desc: waf bypass techniques
+    - tags: web
+- [Shellcoding: Process Injection with Assembly](https://blog.xenoscr.net/2021/07/26/Process-Injection-with-Assembly.html)
+    - desc: analysis and study of SK Chong’s work that was published in issue 62 of Prack in 2001
+    - tags: malwaredev
+- [Introduction to Threat Intelligence ETW](https://undev.ninja/introduction-to-threat-intelligence-etw/)
+    - desc: A quick look into ETW capabilities against malicious API calls.
+    - tags: malwaredev, windows, redteam
+- [Representing Password Reuse in BloodHound](https://porterhau5.com/blog/representing-password-reuse-in-bloodhound/)
+    - desc: password reuse bloodhound paths
+    - tags: windows, redteam
+- [Introducing Mimikatz Kit](https://blog.cobaltstrike.com/2021/07/29/introducing-mimikatz-kit/)
+    - desc: Cobalt Strike updated Mimikatz
+    - tags: redteam
+- [CredPhish](https://github.com/tokyoneon/CredPhish)
+    - desc: CredPhish is a PowerShell script designed to invoke legitimate credential prompts and exfiltrate passwords over DNS. 
+    - tags: windows, exploit, redteam
+- [NTLM Relaying via Cobalt Strike](https://rastamouse.me/ntlm-relaying-via-cobalt-strike/)
+    - desc: relay via c2
+    - tags: redteam
+- [NTLM relaying to AD CS - On certificates, printers and a little hippo ](https://dirkjanm.io/ntlm-relaying-to-ad-certificate-services/)
+    - desc: ADCS, printers, petit
+    - tags: windows, exploit, redteam
+- [Fantastic Windows Logon types and Where to Find Credentials in Them](https://www.alteredsecurity.com/post/fantastic-windows-logon-types-and-where-to-find-credentials-in-them)
+    - desc: Windows Logon Research
+    - tags: windows, exploit, redteam
+
+### tools
+- [SharpImpersonation](https://github.com/S3cur3Th1sSh1t/SharpImpersonation)
+    - desc: A User Impersonation tool - via Token or Shellcode injection
+    - tags: windows, exploit, redteam
+    - more: [Intro Blog](https://s3cur3th1ssh1t.github.io/SharpImpersonation-Introduction/)
+- [ADHuntTool](https://github.com/Mr-Un1k0d3r/ADHuntTool)
+    - desc: official report for the AdHuntTool (part of the old RedTeamCSharpScripts 
+    - tags: redteam
+- [EDD](https://github.com/FortyNorthSecurity/EDD)
+    - desc: .NET to enumerate domain data
+    - tags: redteam
+- [PlumHound](https://github.com/PlumHound/PlumHound)
+    - desc: Bloodhound for Blue and Purple Teams
+    - tags: redteam
+- [SpoolSploit](https://github.com/BeetleChunks/SpoolSploit)
+    - desc: Docker PrintNightmare
+    - tags: exploit, windows
+- [Nobelium-PdfDLRunAesShellcode](https://github.com/boku7/Nobelium-PdfDLRunAesShellcode)
+    - desc: A recreation of the "Nobelium" malware based on Microsofts Malware analysis - Part 1: PDF2Pwn 
+    - tags: phish, redteam
+- [CS-BOFs](https://github.com/pwn1sher/CS-BOFs)
+    - desc: collection of BOFs
+    - tags: redteam
+- [pybeacon](https://github.com/nccgroup/pybeacon)
+    - desc: collection of scripts for dealing with a beacon
+    - tags: blue
+- [PowerShellArmoury](https://github.com/cfalta/PowerShellArmoury)
+    - desc: A PowerShell armoury for penetration testers or other random security guys
+    - tags: windows, redteam
+- [Phant0m](https://github.com/hlldz/Phant0m)
+    - desc: Windows Event Log Killer
+    - tags: windows, exploit, redteam
+- [Vanara](https://github.com/dahall/Vanara)
+    - desc: A set of .NET libraries for Windows implementing PInvoke calls to many native Windows APIs with supporting wrappers. 
+    - tags: malwaredev
+- [Offensive VBA and XLS Entanglement](https://github.com/BC-SECURITY/Offensive-VBA-and-XLS-Entanglement)
+    - desc: Offensive VBA examples
+    - tags: phish, redteam
+    - more: [intro blog](https://www.bc-security.org/post/xls-entanglement/)
+- [gotator](https://github.com/Josue87/gotator)
+    - desc: Gotator is a tool to generate DNS wordlists through permutations.
+    - tags: recon
+- [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell)
+    - desc: A curated list of delightful PowerShell modules and resources
+    - tags: util
+- [SharpSword](https://github.com/OG-Sadpanda/SharpSword)
+    - desc: Read the contents of DOCX files using Cobalt Strike's Execute-Assembly 
+    - tags: windows, redteam
+- [SharpTransactedLoad](https://github.com/G0ldenGunSec/SharpTransactedLoad)
+    - desc: Load .net assemblies from memory while having them appear to be loaded from an on-disk location. 
+    - tags: malwaredev
+- [LoGiC.NET](https://github.com/AnErrupTion/LoGiC.NET)
+    - desc: A more advanced free and open .NET obfuscator using dnlib.
+    - tags: malwaredev
+- [ScareCrow-CobaltStrike](https://github.com/GeorgePatsias/ScareCrow-CobaltStrike)
+    - desc: Cobalt Strike script for ScareCrow payloads 
+    - tags: redteam, malwaredev
+- [bof-spawnSuspendedProcess](https://github.com/boku7/bof-spawnSuspendedProcess)
+    - desc: CS BOF suspended state spawn
+    - tags: redteam
+- [redirect.rules](https://github.com/0xZDH/redirect.rules)
+    - desc: Quick and dirty dynamic redirect.rules generator 
+    - tags: phish, redteam
+- [PetitPotam](https://github.com/topotam/PetitPotam)
+    - desc: PoC ntlm auth via MS-EFSRPC EfsRpcOpenFileRaw function
+    - tags: windows, exploit
+- [CVE-2021-3493](https://github.com/inspiringz/CVE-2021-3493)
+    - desc: priv esc poc
+    - tags: linux, exploit
+- [Awesome-CobaltStrike](https://github.com/zer0yu/Awesome-CobaltStrike)
+    - desc: list of awesome cobalt strike resources
+    - tags: redteam
+- [DcRat](https://github.com/qwqdanchun/DcRat)
+    - desc: simple c# implant / c2
+    - tags: redteam
+- [sns](https://github.com/sw33tLie/sns)
+    - desc: golang shortscan
+    - tags: recon, web
+- [violentfungus-c2](https://github.com/sogonsec/ViolentFungus-C2)
+    - desc: Violent Fungus is a command and control (C2) software suite, providing red teams post-exploitation persistence and other juicy stuff
+    - tags: redteam
+- [BadAssMacros](https://github.com/Inf0secRabbit/BadAssMacros)
+    - desc: BadAssMacros - C# based automated Malicous Macro Generator. 
+    - tags: phish, redteam
+- [hivenightmare](https://github.com/FireFart/hivenightmare)
+    - desc: unprotected hive exploitation
+    - tags: windows, privesc
+- [MMInject](https://github.com/SDXT/MMInject)
+    - desc: Kernel DLL Injector using NX Bit Swapping and VAD hide for hiding injected DLL
+    - tags: malwaredev
+- [PKINIT tools](https://github.com/dirkjanm/PKINITtools)
+    - desc: Tools for Kerberos PKINIT and relaying to AD CS 
+    - tags: windows, exploit, redteam
+- [Windows Command-Line Obfuscation](https://github.com/wietze/windows-command-line-obfuscation)
+    - desc: Project for identifying executables that have command-line options that can be obfuscated, possibly bypassing detection rules. 
+    - tags: exploit, windows, redteam
+    - blog: https://www.wietzebeukema.nl/blog/windows-command-line-obfuscation
+- [GoPEInjection](https://github.com/malware-unicorn/GoPEInjection)
+    - desc: Golang PE injection on windows 
+    - tags: malwaredev
+- [Cent](https://github.com/xm1k3/cent)
+    - desc:  Community edition nuclei templates, a simple tool that allows you to organize all the Nuclei templates offered by the community in one place 
+    - tags: web
