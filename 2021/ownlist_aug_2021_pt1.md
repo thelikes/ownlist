@@ -1,0 +1,84 @@
+## Issue 13 - Aug 2021 pt1
+
+### writeups
+- [Cobalt Strike and Tradecraft](https://hausec.com/2021/07/26/cobalt-strike-and-tradecraft/)
+    - desc: various CS commands' opsec considerations
+    - tags: redteam
+- [A pinch of XLL and a splash of rust has the potential to be a sharp combination](https://redteamer.tips/a-pinch-of-xll-and-a-splash-of-rust-has-the-potential-to-be-a-sharp-combination/)
+    - desc: csharp and rust xll (dll) PoC
+    - tags: malwaredev
+- [HTTP/2: The Sequel is Always Worse](https://portswigger.net/research/http2)
+    - desc: http/2 request smuggling
+    - tags: web
+- [AD CS – The ‘Certified Pre-Owned’ Attacks](https://http418infosec.com/ad-cs-the-certified-pre-owned-attacks)
+    - desc: Overview of attacks covered in 'Certified Pre-Owned'
+    - tags: windows, exploit
+- [From Stranger to DA // Using PetitPotam to NTLM relay to Domain Administrator](https://blog.truesec.com/2021/08/05/from-stranger-to-da-using-petitpotam-to-ntlm-relay-to-active-directory/)
+    - desc: Overview of the PetitPotam attack
+    - tags: windows, exploit
+- [Everything You Need to Know About Web Socket Pentesting](https://www.appknox.com/blog/everything-you-need-to-know-about-web-socket-pentesting)
+    - desc: web socket penetration testing
+    - tags: web
+- [Technical Advisory: Pulse Connect Secure – RCE via Uncontrolled Archive Extraction – CVE-2021-22937 (Patch Bypass)](https://research.nccgroup.com/2021/08/05/technical-advisory-pulse-connect-secure-rce-via-uncontrolled-archive-extraction-cve-2021-22937-patch-bypass/)
+    - desc: bypass for cve-2021-22937
+    - tags: exploit
+- [Hotcobalt – New Cobalt Strike DoS Vulnerability That Lets You Halt](https://labs.sentinelone.com/hotcobalt-new-cobalt-strike-dos-vulnerability-that-lets-you-halt-operations/)
+    - desc: Cobalt Strike DoS
+    - tags: exploit, redteam
+- [Never had a bad day phishing. How to set up GoPhish to evade security controls.](https://www.sprocketsecurity.com/blog/never-had-a-bad-day-phishing-how-to-set-up-gophish-to-evade-security-controls)
+    - desc: GoPhish OpSec modifications
+    - tags: redteam, phish
+- [Playing with PuTTY - F-Secure](https://labs.f-secure.com/blog/playing-with-putty/)
+    - desc: leveraging PuTTY during adversarial simulation
+    - tags: redteam
+- [Universal Privilege Escalation and Persistence – Printer](https://pentestlab.blog/2021/08/02/universal-privilege-escalation-and-persistence-printer/)
+    - desc: privilege escalation with printer drivers
+    - tags: windows, exploit, redteam
+- [Fuzzing Windows RPC with RpcView](https://itm4n.github.io/fuzzing-windows-rpc-rpcview/)
+    - desc: fuzzing RPC protocol
+    - tags: windows, exploitdev
+- [Technique of the Week: Reflected File Download (Intro)](https://blog.0xffff.info/2021/07/31/technique-of-the-week-reflected-file-download-intro/)
+    - desc: Reflected File Download overview
+    - tags: web
+- [Evading EDR in 15 Minutes with ScareCrow](https://adamsvoboda.net/evading-edr-with-scarecrow/)
+    - desc: edr/av evasion
+    - tags: malwaredev
+    
+### tools
+- [sensepost/assless-chaps](https://github.com/sensepost/assless-chaps)
+    - desc: Crack MSCHAPv2 challenge/responses quickly using a database of NT hashes
+    - tags: windows, cracking
+- [GhostPack/Certify](https://github.com/GhostPack/Certify)
+    - desc: Active Directory certificate abuse
+    - tags: windows, exploit
+- [GhostPack/ForgeCert](https://github.com/GhostPack/ForgeCert)
+    - desc: "Golden" certificates
+    - tags: exploit, windows, redteam
+- [boku7/HellsGatePPID](https://github.com/boku7/HellsGatePPID)
+    - desc: Assembly HellGate implementation that directly calls Windows System Calls and displays the PPID of the explorer.exe process 
+    - tags: malwaredev
+- [warhorse/ansible-role-cobaltstrike-docker](https://github.com/warhorse/ansible-role-cobaltstrike-docker)
+    - desc: Ansible Cobalt Strike (Docker) 
+    - tags: utils, redteam
+- [Flangvik/DeployPrinterNightmare](https://github.com/Flangvik/DeployPrinterNightmare)
+    - desc: C# tool for installing a shared network printer abusing the PrinterNightmare bug to allow other network machines easy privesc! 
+    - tags: exploit, windows, redteam
+- [ShutdownRepo/targetedKerberoast](https://github.com/ShutdownRepo/targetedKerberoast)
+    - desc: Kerberoast with ACL abuse capabilities
+    - tags: redteam, windows
+- [klezVirus/inceptor](https://github.com/klezVirus/inceptor)
+    - desc: Template-Driven AV/EDR Evasion Framework
+    - tags: malwaredev
+    - more: [The path to code execution in the era of EDR, Next-Gen AVs, and AMSI](https://klezvirus.github.io/RedTeaming/AV_Evasion/CodeExeNewDotNet/)
+- [boku7/injectAmsiBypass](https://github.com/boku7/injectAmsiBypass)
+    - desc: Cobalt Strike BOF - Bypass AMSI in a remote process with code injection. 
+    - tags: redteam, malwaredev
+- [ShutdownRepo/smartbrute](https://github.com/ShutdownRepo/smartbrute)
+    - desc: Password spraying and bruteforcing tool for Active Directory Domain Services. 
+    - tags: windows, redteam
+- [bashexplode/cs2webconfig](https://github.com/bashexplode/cs2webconfig)
+    - desc: Convert Cobalt Strike profiles to IIS web.config files
+    - tags: redteam
+- [community_kit](https://cobalt-strike.github.io/community_kit/)
+    - desc: currated community addons
+    - tags: redteam
