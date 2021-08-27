@@ -1,0 +1,101 @@
+## Issue 014 - Aug 2021
+
+### writeups
+- [Java giving more shells on everything](https://cornerpirate.com/2021/08/06/java-giving-more-shells-on-everything/)
+    - desc: exploitating java
+    - tags: exploit
+- [Dechaining Macros and Evading EDR](https://blog.f-secure.com/dechaining-macros-and-evading-edr/)
+    - desc: macro exploit dev
+    - tags: phishing
+- [How to Hack APIs in 2021](https://labs.detectify.com/2021/08/10/how-to-hack-apis-in-2021/)
+    - desc: API hacking
+    - tags: web
+- [Linux Privilege Escalation - Package Managers](https://blog.ikuamike.io/posts/2021/package_managers_privesc/)
+    - desc: Linux package manager privilege escalation
+    - tags: linux, exploit
+- [A New Attack Surface on MS Exchange Part 1 - ProxyLogon! ](https://devco.re/blog/2021/08/06/a-new-attack-surface-on-MS-exchange-part-1-ProxyLogon/)
+    - desc: Microsoft Exchange exploitation
+    - tags: web, windows, exploit
+- [A New Attack Surface on MS Exchange Part 2 - ProxyOracle! ](https://devco.re/blog/2021/08/06/a-new-attack-surface-on-MS-exchange-part-2-ProxyOracle/)
+    - desc: Microsoft Exchange exploitation
+    - tags: web, windows, exploit
+- [silence-is-best/files](https://github.com/silence-is-best/files/blob/main/translate_f.pdf)
+    - desc: conti playbook leak
+    - tags: windows, redteam
+- [Burp Automation | Automating Burp Scanning Via Rest API & Robot Framework Using Python3](https://infosecwriteups.com/burp-automation-automating-burp-scanning-via-rest-api-robot-framework-using-python3-78aebdd35c53)
+    - desc: automating burp via python 
+    - tags: web
+- [Demons in the database: Hiding backdoors/malware in (r)DBMS Services – Part #1](https://blog.0xffff.info/2021/08/18/demons-in-the-database-hiding-backdoors-malware-in-rdbms-services-part-1/)
+    - desc: DB persistence
+    - tags: redteam
+- [Defense Evasion Series Part 1 AMSI Bypass](https://dazzyddos.github.io/posts/AMSI-Bypass/)
+    - desc: Bypassing AMSI
+    - tags: redteam
+- [Introduction to Cyber Security Research](https://www.youtube.com/watch?v=eQsKBgnULH0)
+    - desc: subtee short
+    - tags: exploit
+
+### tools
+- [cube0x0/MiniDump](https://github.com/cube0x0/MiniDump)
+    - desc: C# lsass parser
+    - tags: windows
+- [thau0x01/dementor](https://github.com/thau0x01/dementor)
+    - desc: python printer bug 
+    - tags: windows, exploit
+- [boku7/AsmHalosGate](https://github.com/boku7/AsmHalosGate)
+    - desc: x64 Assembly HalosGate direct System Caller
+    - tags: malwaredev
+- [jacob-baines/concealed_position](https://github.com/jacob-baines/concealed_position)
+    - desc: Bring your own print driver privilege escalation tool. [more](https://media.defcon.org/DEF%20CON%2029/DEF%20CON%2029%20presentations/Jacob%20Baines%20-%20Bring%20Your%20Own%20Print%20Driver%20Vulnerability.pdf)
+    - tags: windows, exploit
+- [SharpC2/SharpC2](https://github.com/SharpC2/SharpC2)
+    - desc: c# c2
+    - tags: redteam
+- [med0x2e/SigFlip](https://github.com/med0x2e/SigFlip)
+    - desc: SigFlip is a tool for patching authenticode signed PE files
+    - tags: malwaredev
+- [flaws.cloud](http://flaws.cloud/)
+    - desc: damn vulnerable aws
+    - tags: web, exploit
+- [N7WEra/PublicVulnerableMachines](https://github.com/N7WEra/PublicVulnerableMachines)
+    - desc: vulnerable by design compilation
+    - tags: exploit
+- [Tylous/Limelighter](https://github.com/Tylous/Limelighter)
+    - desc: generate fake code signing certificates or signing real ones
+    - tags: malwaredev
+- [JamesCooteUK/BOFs](https://github.com/JamesCooteUK/BOFs)
+    - desc: collection of BOFs
+    - tags: redteam
+- [damienvanrobaeys/Run-in-Sandbox](https://github.com/damienvanrobaeys/Run-in-Sandbox)
+    - desc: Run PS1, VBS, EXE, MSI in Windows Sandbox very quickly
+    - tags: utilities
+- [boku7/CobaltStrikeReflectiveLoader](https://github.com/boku7/CobaltStrikeReflectiveLoader)
+    - desc: CS User-Defined Reflective Loader written in Assembly & C 
+    - tags: redteam
+- [netero1010/ServiceMove-BOF](https://github.com/netero1010/ServiceMove-BOF)
+    - desc: "new" lateral movement technique abusing Windows Perception Simulation Service + DLL hijacking
+    - tags: redteam
+- [cube0x0/SharpMapExec](https://github.com/cube0x0/SharpMapExec)
+    - desc: c# cme
+    - tags: windows, exploit, redteam
+- [FalconForceTeam/SysWhispers2BOF](https://github.com/FalconForceTeam/SysWhispers2BOF)
+    - desc: Use SysWhispers2 from BOFs
+    - tags: redteam
+- [Udyz/proxyshell-auto](https://github.com/Udyz/proxyshell-auto)
+    - desc: automated ProxyShell exploit
+    - tags: windows, exploit
+- [eloypgz/certi](https://github.com/eloypgz/certi)
+    - desc: ADCS abuser
+    - tags: windows, exploit, redteam
+- [jonaslejon/malicious-pdf](https://github.com/jonaslejon/malicious-pdf)
+    - desc: Malicious PDF generator
+    - tags: phishing
+- [optiv/Microsoft365_devicePhish](https://github.com/optiv/Microsoft365_devicePhish)
+    - desc: Microsoft 365 OAuth abuse
+    - tags: windows, exploit, redteam
+- [Tylous/SourcePoint](https://github.com/Tylous/SourcePoint)
+    - desc: CS profile generator
+    - tags: redteam
+- [Razer USB gadget on Android for Local Privilege Escalation on Windows](https://gist.github.com/tothi/3cdec3aca80e08a406afe695d5448936)
+    - desc: razor lpe exploit
+    - tags: windows, exploit
