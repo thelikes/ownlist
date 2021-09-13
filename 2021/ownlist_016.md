@@ -1,0 +1,122 @@
+## Issue 016 - Sep 2021
+
+### writeups
+- [S3cur3Th1sSh1t/NTLMv1_Downgrade.md](https://gist.github.com/S3cur3Th1sSh1t/0c017018c2000b1d5eddf2d6a194b7bb)
+    - desc: rainbow table NetNTLMv1 downgrade attack
+    - tags: redteam, windows, exploit
+- [CPTC - Better Pentest Reports w/ Examples!](https://lockboxx.blogspot.com/2021/08/cptc-better-pentest-reports-w-examples.html)
+    - desc: pentest report examples
+    - tags: documentation
+- [Introducing Process Hiving & RunPE](https://labs.nettitude.com/blog/introducing-process-hiving-runpe/)
+    - desc: pe runner
+    - tags: malwaredev
+- [Zero-Day Exploits in SonicWall Email Security Lead to Enterprise Compromise](https://www.fireeye.com/blog/threat-research/2021/04/zero-day-exploits-in-sonicwall-email-security-lead-to-compromise.html)
+    - desc: SonicWall 0day 
+    - tags: web, exploit
+- [SleepyCrypt: Encrypting a running PE image while it sleeps](https://www.solomonsklash.io/SleepyCrypt-shellcode-to-encrypt-a-running-image.html)
+    - desc: Encrypting a running PE image while it sleeps
+    - tags: malwaredev
+- [CVE-2020-1300: Remote Code Execution Through Microsoft Windows CAB Files - ZeroDay Initiative](https://www.zerodayinitiative.com/blog/2020/7/8/cve-2020-1300-remote-code-execution-through-microsoft-windows-cab-files)
+    - desc: office cab Nday
+    - tags: phishing, redteam
+- [Remote Code Execution 0-Day (CVE-2021-40444) Hits Windows, Triggered Via Office Docs](https://www.trendmicro.com/en_us/research/21/i/remote-code-execution-zero-day--cve-2021-40444--hits-windows--tr.html)
+    - desc: office cab Nday
+    - tags: phishing, redteam
+- [gcpHound : A Swiss Army Knife Offensive Toolkit for Google Cloud Platform (GCP)](https://desi-jarvis.medium.com/gcphound-a-swiss-army-knife-offensive-toolkit-for-google-cloud-platform-gcp-fb9e18b959b4)
+    - desc: gcp audit
+    - tags: cloud
+- [The complete GraphQL Security Guide: Fixing the 13 most common GraphQL Vulnerabilities to make your API production ready - Wundergraph](https://wundergraph.com/blog/the_complete_graphql_security_guide_fixing_the_13_most_common_graphql_vulnerabilities_to_make_your_api_production_ready)
+    - desc: graphql audit
+    - tags: web
+- [Critical Vulnerability in Microsoft Azure Cosmos DB](https://chaosdb.wiz.io/)
+    - desc: azure vuln
+    - tags: cloud
+
+### tools
+- [NotMedic/NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket)
+    - desc: rainbow table NetNTLMv1 downgrade attack
+    - tags: redteam, windows, exploit
+- [aaaddress1/PR0CESS](https://github.com/aaaddress1/PR0CESS/)
+    - desc: fileless 'ghosting' malware poc
+    - tags: malwaredev
+- [mpast/mobileAudit](https://github.com/mpast/mobileAudit)
+    - desc: Android APK scanner
+    - tags: mobile
+- [SecIdiot/TitanLdr](https://github.com/SecIdiot/TitanLdr)
+    - desc: reflective loader
+    - tags: malwaredev
+- [RCE-0-day-for-GhostScript-9.50](https://github.com/duc-nt/RCE-0-day-for-GhostScript-9.50)
+    - desc: ghostscript Nday
+    - tags: web, exploit
+- [ceramicskate0/BOF-Builder](https://github.com/ceramicskate0/BOF-Builder)
+    - desc: .net 5.0 BOF builder
+    - tags: redteam, cobalt
+- [TheCruZ/kdmapper](https://github.com/TheCruZ/kdmapper)
+    - desc: exploits iqvw64e.sys Intel driver to manually map non-signed drivers in memory
+    - tags: malwaredev
+- [JKornev/hidden](https://github.com/JKornev/hidden)
+    - desc: Windows driver with usermode interface which can hide processes, file-system and registry objects, protect processes and etc 
+    - tags: malwaredev
+- [nwork/WIN_JELLY](https://github.com/nwork/WIN_JELLY)
+    - desc: GPU rootkit
+    - tags: malwaredev
+- [cube0x0/SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers) 
+    - desc: collection of remote authentication triggers written in c#
+    - tags: windows, exploit, redteam
+- [Flangvik/SharpExfiltrate](https://github.com/Flangvik/SharpExfiltrate)
+    - desc: Modular C# framework to exfiltrate loot over secure and trusted channels. 
+    - tags: redteam
+- [ASkyeye/ElusiveMice](https://github.com/ASkyeye/ElusiveMice)
+    - desc: Cobalt Strike User-Defined Reflective Loader with AV/EDR Evasion in mind 
+    - tags: malwaredev, windows, redteam
+- [lockedbyte/CVE-2021-40444](https://github.com/lockedbyte/CVE-2021-40444)
+    - desc: office cab Nday
+    - tags: phishing, redteam, exploit
+- [BishopFox/iam-vulnerable](https://github.com/BishopFox/iam-vulnerable)
+    - desc: aws dvwa
+    - tags: cloud
+- [NoOne-hub/bypass-BeaconEye](https://github.com/NoOne-hub/bypass-BeaconEye) 
+    - desc: beacon hunter
+    - tags: malwaredev
+- [nccgroup/SocksOverRDP](https://github.com/nccgroup/SocksOverRDP)
+    - desc: socks over RDP
+    - tags: redteam
+- [geemion/Khepri](https://github.com/geemion/Khepri)
+    - desc: foss c2
+    - tags: redteam
+- [pucarasec/zuthaka](https://github.com/pucarasec/zuthaka)
+    - desc: A collaborative free open-source Command & Control integration framework that allows developers to concentrate on the core function and goal of their C2. 
+    - tags: redteam
+- [knight0x07/ImpulsiveDLLHijack](https://github.com/knight0x07/ImpulsiveDLLHijack)
+    - desc: c# tool to automate dll hijacking
+    - tags: windows, exploit, redteam
+- [iomoath/PowerShx](https://github.com/iomoath/PowerShx)
+    - desc: Unmanaged PowerShell exec via dll
+    - tags: windows, exploit, redteam
+- [countercept/chainsaw](https://github.com/countercept/chainsaw)
+    - desc: Event Log search and hunt
+    - tags: blue
+- [Wra7h/Single-Dose](https://github.com/Wra7h/Single-Dose)
+    - desc: Generate process injection binaries 
+    - tags: malwaredev
+- [ahmedkhlief/Ninja](https://github.com/ahmedkhlief/Ninja)
+    - desc: Open source C2 server created for stealth red team operations 
+    - tags: redteam
+- [inguardians/peirates](https://github.com/inguardians/peirates)
+    - desc: Kubernetes Penetration Testing tool 
+    - tags: cloud
+- [dolevf/graphw00f](https://github.com/dolevf/graphw00f)
+    - desc: graphql fingerprint
+    - tags: web
+- [analyticsearch/DllLoadAnythingViaScript](https://gist.github.com/analyticsearch/e4805b1e51197163ce8ea15ec6f8d9f0)    
+    - desc: DLL load via WSH
+    - tags: windows, redteam, malwaredev
+- [STMCyber/boobsnail](https://github.com/STMCyber/boobsnail)
+    - desc: xlm excel 4.0 maldoc generator
+    - tags: phishing, malwaredev
+- [SDA-SE/cluster-image-scanner](https://github.com/SDA-SE/cluster-image-scanner)
+    - desc: container vuln scanner
+    - tags: cloud
+- [rexguowork/phantom-attack](https://github.com/rexguowork/phantom-attack)
+    - desc: Phantom Attack (Linux post evasion)
+    - tags: linux, post
