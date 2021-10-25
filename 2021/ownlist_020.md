@@ -1,0 +1,113 @@
+## Issue 020 - Oct 2021
+
+### writeups
+- [Using Kerberos for Authentication Relay Attacks - Project Zero](https://googleprojectzero.blogspot.com/2021/10/using-kerberos-for-authentication-relay.html)
+    - desc: kerberos relaying [more](https://googleprojectzero.blogspot.com/2021/10/windows-exploitation-tricks-relaying.html)
+    - tags: windows, redteam
+- [Compromising a Domain With the Help of a Spooler - Cymulate](https://blog.cymulate.com/compromising-a-domain)
+    - desc: domain takeover simulation
+    - tags: redteam, windows
+- [Testing Methodology for Insecure Deserialization Vulnerability](https://blog.securelayer7.net/testing-methodology-for-insecure-deserialization-vulnerability/)
+    - desc: methods for blackbox deserialization testing
+    - tags: web, exploit
+- [Defining Cobalt Strike Components So You Can BEA-CONfident in Your Analysis](https://www.mandiant.com/resources/defining-cobalt-strike-components)
+    - desc: cobaltstrike breakdown
+    - tags: redteam
+- [rootsecdev/Azure-Red-Team](https://github.com/rootsecdev/Azure-Red-Team)
+    - desc: Azure exploitation notes
+    - tags: cloud
+- [Exploiting Hibernate Injections - SonarSource](https://blog.sonarsource.com/exploiting-hibernate-injections)
+    - desc: Java Hibernate ORM framework exploitation
+    - tags: web
+- [From Default Printer Credentials to Domain Admin - boschko.ca](https://boschko.ca/printer-to-domain-admin/)
+    - desc: The tail of a Xerox pass-back-attack. How to exploit trust relationships between devices that are generally considered benign. 
+    - tags: windows, redteam, exploit
+- [Compromising vCenter via SAML Certificates - horizon3.ai](https://www.horizon3.ai/compromising-vcenter-via-saml-certificates/)
+    - desc: SAML identity provider exploitation
+    - tags: exploit, web
+    
+### tools
+- [neex/ghostinthepdf](https://github.com/neex/ghostinthepdf)
+    - desc: GhostScript PDF payload generator
+    - tags: web, exploit
+- [Tyrrrz/CliFx](https://github.com/Tyrrrz/CliFx)
+    - desc: Declarative framework for building command line interfaces 
+    - tags: utilities
+- [improsec/ImproHound](https://github.com/improsec/ImproHound)
+    - desc: Identify the attack paths in BloodHound breaking your AD tiering 
+    - tags: windows, redteam
+- [johnnypea/useful-one-liners.sh](https://gist.github.com/johnnypea/b0cd77e5734d65691fa21d93274b305b)
+    - desc: collection of 1-liners
+    - tags: utilities
+- [aead/minisign](https://github.com/aead/minisign)
+    - desc: A dead simple tool to sign files and verify digital signatures. 
+    - tags: malwaredev
+- [shadow-workers/shadow-workers](https://github.com/shadow-workers/shadow-workers)
+    - desc: Shadow Workers is a free and open source C2 and proxy designed for penetration testers to help in the exploitation of XSS and malicious Service Workers (SW) 
+    - tags: web, exploit
+- [EncodeGroup/BOF-RegSave](https://github.com/EncodeGroup/BOF-RegSave)
+    - desc: Dumping SAM / SECURITY / SYSTEM registry hives with a Beacon Object File 
+    - tags: redteam, windows, exploit, postex
+- [CCob/Jboss-Wilfly-Hashes-to-Hashcat](https://github.com/CCob/Jboss-Wilfly-Hashes-to-Hashcat)
+    - desc: Converts JBoss/Wildfly management users properties file to hashcat format compatible with mode 20 
+    - tags: utilities
+- [rasta-mouse/EncryptedKeyExchange](https://github.com/rasta-mouse/EncryptedKeyExchange)
+    - desc: Encrypted Key Exchange in .NET
+    - tags: redteam, utilities
+- [aaaddress1/Skrull](https://github.com/aaaddress1/Skrull)
+    - desc: DRM malware, process ghosting
+    - tags: malwaredev
+- [six2dez/reconftw](https://github.com/six2dez/reconftw)
+    - desc: automated recon
+    - tags: web
+- [kitabisa/teler](https://github.com/kitabisa/teler)
+    - desc: real-time HTTP intrusion detection
+    - tags: utilities
+- [looCiprian/GC2-sheet](https://github.com/looCiprian/GC2-sheet)
+    - desc: google sheets c2
+    - tags: redteam
+- [snovvcrash/DInjector](https://github.com/snovvcrash/DInjector)
+    - desc: collection of injectors
+    - tags: malwaredev
+- [S3cur3Th1sSh1t/OffensiveVBA](https://github.com/S3cur3Th1sSh1t/OffensiveVBA)
+    - desc: AV Evasion methods for Macros in Office documents 
+    - tags: redteam, windows, phish
+- [redherd-project/redherd-framework](https://github.com/redherd-project/redherd-framework)
+    - desc: collaborative and serverless framework for orchestrating a geographically distributed group of assets.
+    - tags: redteam
+- [Cobalt-Strike/sleep_python_bridge](https://github.com/Cobalt-Strike/sleep_python_bridge)
+    - desc: This project is 'bridge' between the sleep and python language
+    - tags: redteam
+- [MythicAgents/hermes](https://github.com/MythicAgents/hermes)
+    - desc: Swift 5 macOS implant 
+    - tags: malwaredev
+- [im2nguyen/rover](https://github.com/im2nguyen/rover)
+    - desc: terraform visualization
+    - tags: utilities
+- [LuemmelSec/SAML2Spray](https://github.com/LuemmelSec/SAML2Spray)
+    - desc: Python Script for SAML2 Authentication Passwordspray 
+    - tags: exploit, web
+- [plackyhacker/Shellcode-Injection-Techniques](https://github.com/plackyhacker/Shellcode-Injection-Techniques)
+    - desc: A collection of C# shellcode injection techniques. 
+    - tags: malwaredev
+- [Tylous/ZipExec](https://github.com/Tylous/ZipExec)
+    - desc: A unique technique to execute binaries from a password protected zip 
+    - tags: malwaredev
+- [ideaslocas/aDLL](https://github.com/ideaslocas/aDLL)
+    - desc: automatic discovery of DLL Hijacking vulnerabilities
+    - tags: malwaredev
+- [ptswarm/reFlutter](https://github.com/ptswarm/reFlutter)
+    - desc: Flutter Reverse Engineering Framework
+    - tags: reverse
+- [codewhitesec/HandleKatz](https://github.com/codewhitesec/HandleKatz)
+    - desc: PIC lsass dumper using cloned handles 
+    - tags: windows, postex, redteam
+- [decay88/bytearray2exe.cs](https://gist.github.com/decay88/9a5a5250f066fe9d2b99387db59102c1)
+    - desc: Execute base64 encoded byte array from memory without wrting to disk as a disguised process 
+    - tags: malwaredev
+- [p0dalirius/LDAPmonitor](https://github.com/p0dalirius/LDAPmonitor)
+    - desc: real-time LDAP object monitor
+    - tags: redteam, windows
+- [pry0cc/gorgo](https://github.com/pry0cc/gorgo)
+    - desc: A multi-threaded password sprayer based on Medusa, built for distributed spraying. 
+    - tags: utilities
