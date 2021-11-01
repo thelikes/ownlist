@@ -1,0 +1,123 @@
+## Issue 021 - Nov 2021
+
+### writeups
+- [A Primer for Testing the Security of GraphQL APIs - forceunseen](https://blog.forcesunseen.com/a-primer-for-testing-the-security-of-graphql-apis)
+    - desc: GraphQL exploitation
+    - tags: web
+- [CVE-2021-34484 bypass as 0day](https://twitter.com/wdormann/status/1451672354241777667?t=oGnRSe40TYEeMTkkcw60vg&s=19)
+    - desc: CVE-2021-34484 poc
+    - tags: privesc
+- [What’s New in Impacket Release v0.9.24? - SecureAuth](https://www.secureauth.com/blog/impacket-v0-9-24-released/)
+    - desc: impacket release notes
+    - tags: windows, exploit
+- [Create a proxy DLL with artifact kit - CobaltStrike](https://blog.cobaltstrike.com/2021/10/29/create-a-proxy-dll-with-artifact-kit/)
+- [Revisiting Unconstrained Delegation - Microsoft 365 Security](https://m365internals.com/2021/10/27/revisiting-unconstrained-delegation/)
+    - desc: Unconstrained Delegation research
+    - tags: windows, redteam
+- [SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket - NotMedic](https://github.com/NotMedic/NetNTLMtoSilverTicket)
+    - desc: SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket
+    - tags: windows, exploit
+- [PHP-FPM local root vulnerability - ambionics](https://www.ambionics.io/blog/php-fpm-local-root)
+    - desc: PHP-FPM lpe
+    - tags: web, privesc
+- [Formalized Curiosity - SpecterOps](https://posts.specterops.io/formalized-curiosity-3c550ece803e)
+    - desc: notes on how to research
+    - tags: research
+- [Pentest Deep-Dive: Custom RUNAS - dolosgroup](https://dolosgroup.io/blog/2019/1/30/pentest-deep-dive-custom-runas)
+    - desc: runas research
+    - tags: research, windows
+- [Tortellini in Brodobuf - aptwtf](https://aptw.tf/2021/10/27/exploiting-protobuf-webapps.html)
+    - desc: How serializing data using Google’s Protobuf is not protecting your web app
+    - tags: web, exploit
+- [Agent 007: Pre-Auth Takeover of Build Pipelines in GoCD - SonarSource](https://blog.sonarsource.com/gocd-pre-auth-pipeline-takeover?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+Sonar+%28SonarSource+Blog%29)
+    - desc: GoCD exploitation research
+    - tags: web, exploit
+- [Cobalt Strike: Using Known Private Keys To Decrypt Traffic – Part 2 - Nvisio Labs](https://blog.nviso.eu/2021/10/27/cobalt-strike-using-known-private-keys-to-decrypt-traffic-part-2/)
+    - desc: Decrypting CS traffic
+    - tags: malwaredev, redteam, research
+- [Zimbra “zmslapd” Local Root Exploit - darren martyn](https://darrenmartyn.ie/2021/10/27/zimbra-zmslapd-local-root-exploit/)
+    - desc: Zimbra LPE
+    - tags: privesc
+- [AWS WAF's Dangerous Defaults - Osama Elnaggar](https://osamaelnaggar.com/blog/aws_waf_dangerous_defaults/)
+    - desc: aws waf research
+    - tags: web, research
+- [All Your (d)Base Are Belong To Us, Part 2: Code Execution in Microsoft Office (CVE-2021–38646) - Eugene Lim](https://medium.com/csg-govtech/all-your-d-base-are-belong-to-us-part-2-code-execution-in-microsoft-office-cve-2021-38646-fa6e70362162)
+    - desc: office 0day writeup
+    - tags: research, windows, exploit
+- [Windows User Profile Service 0day LPE - halov](https://halove23.blogspot.com/2021/10/windows-user-profile-service-0day.html)
+    - desc: windows privesc 0day writeup
+    - tags: windows, privesc
+- [GO Reverse Engineering Tool Kit - go-re.tk](https://go-re.tk/)
+    - desc: go reverse framework
+    - tags: utility
+
+### tools
+- [ly4k/CallbackHell](https://github.com/ly4k/CallbackHell)
+    - desc: Exploit for CVE-2021-40449 - Win32k Elevation of Privilege Vulnerability (LPE) 
+    - tags: windows, privesc
+- [qwqdanchum/MultiRDP](https://github.com/qwqdanchum/MultiRDP)
+    - desc: consosle application to make multiple RDP (Remote Desktop) sessions possible by patching termsrv.dll correctly
+    - tags: windows, redteam
+- [Rices/Phishious](https://github.com/Rices/Phishious)
+    - desc: An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.
+    - tags: redteam, phish
+- [lkarlslund/adalanche](https://github.com/lkarlslund/adalanche)
+    - desc: Active Directory ACL Visualizer and Explorer 
+    - tags: windows, redteam
+- [klezVirus/SharpSelfDelete](https://github.com/klezVirus/SharpSelfDelete)
+    - desc: C# implementation of the research by @jonaslyk and the drafted PoC from @LloydLabs self delete runner
+    - tags: malwaredev
+- [klezVirus/inceptor](https://github.com/klezVirus/inceptor)
+    - desc: template driven av/edr evasion framework
+    - tags: malwaredev
+- [rvrsh3ll/TokenTactics](https://github.com/rvrsh3ll/TokenTactics)
+    - desc: Azure JWT Token Manipulation Toolset 
+    - tags: cloud, web
+- [byt3bl33d3r/ItWasAllADream](https://github.com/byt3bl33d3r/ItWasAllADream)
+    - desc: PrintNightmare python scanner
+    - tags: windows, exploit, redteam
+- [dev-2null/ADCollector](https://github.com/dev-2null/ADCollector)
+    - desc: lightweight tool to quickly extract valuable information from the Active Directory
+    - tags: windows, redteam
+- [matterpreter/OffensiveCSharp](https://github.com/matterpreter/OffensiveCSharp)
+    - desc: Collection of Offensive C# Tooling
+    - tags: windows, redteam
+- [cube0x0/SharpMapModules](https://github.com/cube0x0/SharpMapModules)
+    - desc: c# recon modules
+    - tags: redteam
+- [rasta-mouse/DInvoke](https://github.com/rasta-mouse/DInvoke)
+    - desc: minimalist DInvoke
+    - tags: malwaredev
+- [michaelweber/Macrome](https://github.com/michaelweber/Macrome)
+    - desc: Excel Macro Document Reader/Writer for Red Teamers & Analysts 
+    - tags: malwaredev, phish
+- [N7WEra/SharpAllTheThings](https://github.com/N7WEra/SharpAllTheThings)
+    - desc: collection of c# cobalt strike related projects
+    - tags: redteam
+- [NetSPI/ESC](https://github.com/NetSPI/ESC)
+    - desc: evil sql client
+    - tags: windows, post
+- [1modm/petereport](https://github.com/1modm/petereport)
+    - desc: vulnerability reporting tool
+    - tags: utility
+- [DarkCoderSc/PowerAssembly](https://github.com/DarkCoderSc/PowerAssembly)
+    - desc: Map remote .NET assemblies to memory for further invocation
+    - tags: malwaredev
+- [VoidSec/DriverBuddyReloaded](https://github.com/VoidSec/DriverBuddyReloaded)
+    - desc: Driver Buddy Reloaded is an IDA Pro Python plugin that helps automate some tedious Windows Kernel Drivers reverse engineering tasks
+    - tags: utility
+- [blurbdust/ldd2bh](https://github.com/blurbdust/ldd2bh)
+    - desc: Convert ldapdomaindump to Bloodhound 
+    - tags: redteam, utility
+- [gtworek/PSBits](https://github.com/gtworek/PSBits)
+    - desc: AMSI persistence research/poc
+    - tags: redteam, windows
+- [praetorian-inc/snowcat](https://github.com/praetorian-inc/snowcat)
+    - desc: tool to audit istio service mesh
+    - tags: exploit
+- [morph3/crawpy](https://github.com/morph3/crawpy)
+    - desc: content discovery tool
+    - tags: web, recon
+- [ceres-c/bulldozer](https://github.com/ceres-c/bulldozer)
+    - desc: javascript decompiler
+    - tags: utility
