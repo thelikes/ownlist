@@ -11,6 +11,8 @@
     - desc: impacket release notes
     - tags: windows, exploit
 - [Create a proxy DLL with artifact kit - CobaltStrike](https://blog.cobaltstrike.com/2021/10/29/create-a-proxy-dll-with-artifact-kit/)
+    - desc: dll proxying in cobaltstrike
+    - tags: malwaredev
 - [Revisiting Unconstrained Delegation - Microsoft 365 Security](https://m365internals.com/2021/10/27/revisiting-unconstrained-delegation/)
     - desc: Unconstrained Delegation research
     - tags: windows, redteam
