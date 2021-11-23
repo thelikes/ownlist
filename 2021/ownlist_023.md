@@ -1,0 +1,100 @@
+## Issue 023 - Nov 2021
+
+### writeups
+- [Evading EDR Detection with Reentrancy Abuse - deepinstinct](https://www.deepinstinct.com/blog/evading-antivirus-detection-with-inline-hooks)
+    - desc: EDR evasion research
+    - tags: malwaredev
+- [The Kerberos Key List Attack: The return of the Read Only Domain Controllers - secureauth](https://www.secureauth.com/blog/the-kerberos-key-list-attack-the-return-of-the-read-only-domain-controllers/)
+    - desc: new credential gathering attack vector involving Read Only Domain Controllers
+    - tags: redteam
+- [Becoming A Super Admin In Someone Elses Gsuite Organization And Taking It Over - secreltyhiddenwriteups](https://secreltyhiddenwriteups.blogspot.com/2021/11/becoming-super-admin-in-someone-elses.html)
+    - desc: gsuite exploitation writeup
+    - tags: phish, redteam
+- [Pentest tale - Dumping cleartext credentials from antivirus - exandroid.dev](https://www.exandroid.dev/2021/11/20/pentest-tale-dumping-cleartext-credentials-from-antivirus/)
+    - desc: eset creds extraction
+    - tags: postex
+
+### tools
+- [CravateRouge/bloodyAD](https://github.com/CravateRouge/bloodyAD)
+    - desc: python priv esc framework (eg powerview esq)
+    - tags: redteam, windows
+- [nnsee/fileless-elf-exec](https://github.com/nnsee/fileless-elf-exec)
+    - desc: fileless elf exec
+    - tags: linux, exploit
+- [mandatoryprogrammer/CursedChrome](https://github.com/mandatoryprogrammer/CursedChrome)
+    - desc: proxy pivot chrome extension
+    - tags: redteam
+- [t3hbb/NSGenCS](https://github.com/t3hbb/NSGenCS)
+    - desc: Extendable payload obfuscation and delivery framework
+    - tags: malwaredev
+- [N4kedTurtle/LocalDllParse](https://github.com/N4kedTurtle/LocalDllParse)
+    - desc: Local DLL enum
+    - tags: malwaredev, redteam
+- [helpsystems/nanodump](https://github.com/helpsystems/nanodump)
+    - desc: Dumping LSASS has never been so stealthy 
+    - tags: redteam, windows
+- [mai1zhi2/SharpBeacon](https://github.com/mai1zhi2/SharpBeacon)
+    - desc: c# beacon
+    - tags: redteam, malwaredev
+- [lkarlslund/azureimposter](https://github.com/lkarlslund/azureimposter)
+    - desc: Go module that allows you to authenticate to Azure with a well known client ID using interactive logon and grab the token
+    - tags: redteam
+- [CCob/lsarelayx](https://github.com/CCob/lsarelayx)
+    - desc: NTLM relaying for Windows made easy 
+    - tags: windows, exploit, redteam
+- [Living Off Trusted Sites (LOTS) Project](https://lots-project.com/)
+    - desc: trusted site compilation
+    - tags: redteam
+- [Sh0ckFR/InlineWhispers2](https://github.com/Sh0ckFR/InlineWhispers2)
+    - desc: Direct System Calls in Cobalt Strike's Beacon Object Files (BOF) via Syswhispers2 
+    - tags: redteam, malwaredev
+- [filesec.io -  latest file extensions being used by attackers](https://filesec.io/)
+    - desc: Stay up-to-date with the latest file extensions being used by attackers.
+    - tags: redteam
+- [tothi/dll-hijack-by-proxying](https://github.com/tothi/dll-hijack-by-proxying)
+    - desc: Exploiting DLL Hijacking by DLL Proxying Super Easily 
+    - tags: malwaredev
+- [rasta-mouse/ExternalC2.NET](https://github.com/rasta-mouse/ExternalC2.NET)
+    - desc: .NET implementation of Cobalt Strike's External C2 Spec
+- [oXis/GPUSleep](https://github.com/oXis/GPUSleep)
+    - desc: PoC Move CS beacon to GPU memory when sleeping 
+    - tags: malwaredev
+- [securifybv/Visual-Studio-BOF-template](https://github.com/securifybv/Visual-Studio-BOF-template)
+    - desc: A Visual Studio template used to create Cobalt Strike BOFs 
+    - tags: utility
+- [login-securite/DonPAPI](https://github.com/login-securite/DonPAPI)
+    - desc: remote DPAPI
+    - tags: redteam, windows
+- [S3cur3Th1sSh1t/MultiPotato](https://github.com/S3cur3Th1sSh1t/MultiPotato)
+    - desc: SeImpersonate RoguePotato variation
+    - tags: redteam, windows
+- [echtdefault/MalDoc-Embedded-EXE-Bin-](https://github.com/echtdefault/MalDoc-Embedded-EXE-Bin-)
+    - desc: maldoc gen technique
+    - tags: malwaredev, phish
+- [thalpius/Microsoft-Kerberos](https://github.com/thalpius/Microsoft-Kerberos)
+    - desc: PoC KerberosSecurityTokenProvider tgs
+    - tags: redteam, windows
+- [klinix5/InstallerFileTakeOver](https://github.com/klinix5/InstallerFileTakeOver)
+    - desc: windows lpe 0day poc
+    - tags: windows, lpe
+- [two06/Inception](https://github.com/two06/Inception)
+    - desc: Provides In-memory compilation and reflective loading of C# apps for AV evasion. 
+    - tags: malwaredev
+- [dievus/Firefox-Dumper](https://github.com/dievus/Firefox-Dumper)
+    - desc: Tool to transfer credential files from Firefox to your local machine to decrypt offline. 
+    - tags: utility
+- [andre3llo/apachestruts](https://github.com/andre3llo/apachestruts)
+    - desc: Exploit para Apache Struts v2 (RCE) 
+    - tags: web, exploit
+- [thehappydinoa/rootOS](https://github.com/thehappydinoa/rootOS)
+    - desc: macos priv esc helper
+    - tags: apple, lpe
+- [nettitude/SharpSocks](https://github.com/nettitude/SharpSocks)
+    - desc: Tunnellable HTTP/HTTPS socks4a proxy written in C# and deployable via PowerShell 
+    - tags: utility
+- [dievus/Oh365UserFinder](https://github.com/dievus/Oh365UserFinder)
+    - desc: Python3 o365 User Enumeration Tool 
+    - tags: cloud
+- [mrd0x/dll_inject_lolbin](https://github.com/mrd0x/dll_inject_lolbin)
+    - desc: LOLBINs that inject a DLL into a given process ID. 
+    - tags: windows, redteam
