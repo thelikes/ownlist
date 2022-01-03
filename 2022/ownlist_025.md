@@ -1,4 +1,4 @@
-## Issue 025 - Dec 2022
+## Issue 025 - Jan 2022
 
 ### writeups
 - [Dumping LSASS with Duplicated Handles - Rasta Mouse](https://rastamouse.me/dumping-lsass-with-duplicated-handles/)
