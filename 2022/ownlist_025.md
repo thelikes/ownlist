@@ -1,0 +1,155 @@
+## Issue 025 - Dec 2022
+
+### writeups
+- [Dumping LSASS with Duplicated Handles - Rasta Mouse](https://rastamouse.me/dumping-lsass-with-duplicated-handles/)
+    - desc: lsass dump research
+    - tags: windows, redteam
+- [ADCS: Playing with ESC4 - fortalicesolutions](https://www.fortalicesolutions.com/posts/adcs-playing-with-esc4)
+    - desc: ADCS research
+    - tags: windows, redteam
+- [responder and IPv6 attacks - laurent gaffie](https://g-laurent.blogspot.com/2021/12/responder-and-ipv6-attacks.html)
+    - desc: responder.py feature announcement 
+    - tags: windows, exploit, redteam
+- [How to exploit Log4j vulnerabilities in VMWare vCenter - SprocketSecurity](https://www.sprocketsecurity.com/blog/how-to-exploit-log4j-vulnerabilities-in-vmware-vcenter)
+    - desc: vcenter log4j exploitation research
+    - tags: exploit
+- [Downgrading Kerberos Encryption & Why It Doesn’t Work In Server 2019 - vbscrub](https://vbscrub.com/2021/12/04/downgrading-kerberos-encryption-amp-why-it-doesnt-work-in-server-2019/)
+    - desc: kerberos exploitation research
+    - tags: windows, redteam
+- [Windows 10 RCE: The exploit is in the link - positive.security](https://positive.security/blog/ms-officecmd-rce)
+    - desc: Win 10 URI handler 0day
+    - tags: windows, exploit
+- [31k$ SSRF in Google Cloud Monitoring led to metadata exposure  - david nechuta](https://nechudav.blogspot.com/2020/11/31k-ssrf-in-google-cloud-monitoring.html)
+    - desc: bug bounty gcp research
+    - tags: web, exploit
+- [Antivirus evasion by user mode unhooking on Windows 10 - Broumels & Ubink](https://rp.os3.nl/2020-2021/p68/report.pdf)
+    - desc: EDR/AV unhooking evasion research
+    - tags: malwaredev
+- [Quick & Lazy Malware Development - capt. meelo](https://captmeelo.com/redteam/maldev/2021/12/15/lazy-maldev.html)
+    - desc: malware evasion research
+    - tags: malwaredev
+- [Why is Exposing the Docker Socket a Really Bad Idea? - Quarkslab](https://blog.quarkslab.com/why-is-exposing-the-docker-socket-a-really-bad-idea.html)
+    - desc: docker exploitation research
+    - tags: cloud
+- [This is how I bypassed almost every EDR! - omri baso](https://medium.com/@omribaso/this-is-how-i-bypassed-almost-every-edr-6e9792cf6c44)
+    - desc: edr evasion research
+    - tags: malwaredev
+- [RCE-0-day-for-GhostScript-9.50 - duc-nt](https://github.com/duc-nt/RCE-0-day-for-GhostScript-9.50)
+    - desc: RCE 0-day for GhostScript 9.50 - Payload generator 
+    - tags: web, exploit
+- [PHP LFI with Nginx Assistance - 0xbb](https://bierbaumer.net/security/php-lfi-with-nginx-assistance/)
+    - desc: php+lfi research
+    - tags: web, exploit
+- [Turning bad SSRF to good SSRF: Websphere Portal - assetnote](https://blog.assetnote.io/2021/12/26/chained-ssrf-websphere/)
+    - desc: ssrf research
+    - tags: web, exploit
+- [Attacking Java RMI via SSRF  - qtc](https://blog.tneitzel.eu/posts/01-attacking-java-rmi-via-ssrf/)
+    - desc: ssrf research
+    - tags: web, exploit
+- [Unlocking the Vault :: Unauthenticated Remote Code Execution against CommVault Command Center - srcincite](https://srcincite.io/blog/2021/11/22/unlocking-the-vault.html)
+    - desc: vuln research 
+    - tags: web, exploit
+- [Defeating Malicious Launch Persistence - 4n7m4n](https://antman1p-30185.medium.com/defeating-malicious-launch-persistence-156e2b40fc67?source=user_profile---------0-------------------------------)
+    - desc: malware hunting research
+    - tags: macos, blueteam
+
+### tools
+- [phith0n/zkar](https://github.com/phith0n/zkar)
+    - desc: ZKar is a Java serialization protocol analysis tool implement in Go. 
+    - tags: utility, web
+- [clr2of8/DPAT](https://github.com/clr2of8/DPAT)
+    - desc: Domain Password Audit Tool for Pentesters 
+    - tags: windows, postex
+- [ShutdownRepo/ShadowCoerce](https://github.com/ShutdownRepo/ShadowCoerce)
+    - desc: MS-FSRVP coercion abuse PoC
+    - tags: windows, exploit, redteam
+- [plackyhacker/CmdLineSpoofer](https://github.com/plackyhacker/CmdLineSpoofer)
+    - desc: How to spoof the command line when spawning a new process from C#. 
+    - tags: malwaredev
+- [sliverarmory/armory](https://github.com/sliverarmory/armory)
+    - desc: The Official Sliver Armory
+    - tags: redteam
+- [Cracked5pider/KaynLdr](https://github.com/Cracked5pider/KaynLdr)
+    - desc: KaynLdr is a Reflective Loader written in C/ASM
+    - tags: malwaredev
+- [trickster0/TartarusGate](https://github.com/trickster0/TartarusGate)
+    - desc: TartarusGate, Bypassing EDRs 
+    - tags: malwaredev
+- [plackyhacker/Sys-Calls](https://github.com/plackyhacker/Sys-Calls)
+    - desc: An example of using Syscalls in C# to get a meterpreter shell
+    - tags: malwaredev
+- [plackyhacker/Peruns-Fart](https://github.com/plackyhacker/Peruns-Fart)
+    - desc: Perun's Fart (Slavic God's Luck). Another method for unhooking AV and EDR, this is my C# version
+    - tags: malwaredev
+- [boku7/CobaltStrikeReflectiveLoader](https://github.com/boku7/CobaltStrikeReflectiveLoader)
+    - desc: Cobalt Strike User-Defined Reflective Loader written in Assembly & C for advanced evasion capabilities.
+    - tags: malwaredev
+- [enkomio/AlanFramework](https://github.com/enkomio/AlanFramework)
+    - desc: A C2 post-exploitation framework
+    - tags: redteam
+- [soteria-security/365Inspect](https://github.com/soteria-security/365Inspect)
+    - desc: A PowerShell script that automates the security assessment of Microsoft Office 365 environments. 
+    - tags: cloud
+- [c3c/ADExplorerSnapshot.py](https://github.com/c3c/ADExplorerSnapshot.py)
+    - desc: ADExplorerSnapshot.py is an AD Explorer snapshot ingestor for BloodHound
+    - tags: redteam
+- [ajpc500/NimlineWhispers2](https://github.com/ajpc500/NimlineWhispers2)
+    - desc: A tool for converting SysWhispers2 syscalls for use with Nim projects 
+    - tags: malwaredev
+- [adamcaudill/EquationGroupLeak HTA](https://github.com/adamcaudill/EquationGroupLeak/blob/master/oddjob/Binaries/oddjob_builder/ODDJOB_BUilder_v3.hta)
+    - desc: equationgroup hta
+    - tags: malwaredev
+- [antonioCoco/MalSeclogon](https://github.com/antonioCoco/MalSeclogon)
+    - desc: A little tool to play with the Seclogon service, lsass dump + PPID spoofing 
+    - tags: windows, postex
+- [l0ggg/VMware_vCenter](https://github.com/l0ggg/VMware_vCenter)
+    - desc: VMware vCenter 7.0.2.00100 unauth Arbitrary File Read + SSRF + Reflected XSS 
+    - tags: exploit, web
+- [GovTech-CSG/ProxyAgent](https://github.com/GovTech-CSG/ProxyAgent)
+    - desc: tool that is created to ease the proxy connection setup process between a rooted Android device to a computer that is running BurpSuite
+    - tags: mobile
+- [h3x0crypt/HostSpider](https://github.com/h3x0crypt/HostSpider)
+    - desc: domain info gathering tool
+    - tags: recon, web
+- [diversenok/NtTools](https://github.com/diversenok/NtTools)
+    - desc: random system tools for windows
+    - tags: windows, redteam, utility
+- [vmware-labs/attack-surface-framework](https://github.com/vmware-labs/attack-surface-framework)
+    - desc: asset finder
+    - tags: web, recon
+- [knownsec/Kunyu](https://github.com/knownsec/Kunyu)
+    - desc: Kunyu, more efficient corporate asset collection 
+    - tags: web, recon
+- [iomoath/PowerShx](https://github.com/iomoath/PowerShx)
+    - desc: Run Powershell without software restrictions. 
+    - tags: windows, redteam
+ - [XiaoliChan/wmiexec-RegOut](https://github.com/XiaoliChan/wmiexec-RegOut)
+    - desc: Modify version of impacket wmiexec.py, get output(data,response) from registry, don't need SMB connection, also bypassing antivirus-software in lateral movement like WMIHACKER. 
+    - tags: windows, redteam
+- [pwn1sher/WMEye](https://github.com/pwn1sher/WMEye)
+    - desc: WMEye is a post exploitation tool that uses WMI Event Filter and MSBuild Execution for lateral movement
+    - tags: windows, redteam
+- [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
+    - desc: This repository contains cutting-edge open-source security tools (OST) for a red teamer and threat hunter. 
+    - tags: redteam
+- [sbasu7241/kernelcallback.cs](https://gist.github.com/sbasu7241/5dd8c278762c6305b4b2009d44d60c13)
+    - desc: edr evasion using kernel callbacks PoC
+    - tags: malwaredev
+- [noperator/panos-scanner](https://github.com/noperator/panos-scanner)
+    - desc: pan os scanner
+    - tags: web
+- [icyguider/DumpNParse](https://github.com/icyguider/DumpNParse)
+    - desc: A Combination LSASS Dumper and LSASS Parser. All Credit goes to @slyd0g and @cube0x0. 
+    - tags: windows, postex
+- [nationalcptc/report_examples](https://github.com/nationalcptc/report_examples)
+    - desc: Example reports from prior years of the Collegiate Penetration Testing Competition 
+    - tags: utility
+- [connormcgarr/tgtdelegation](https://github.com/connormcgarr/tgtdelegation)
+    - desc: BOF TGT delegation trick
+    - tags: windows, redteam
+- [oldboy21/LDAP-Password-Hunter](https://github.com/oldboy21/LDAP-Password-Hunter)
+    - desc: Password Hunter in the LDAP infamous database 
+    - tags: windows, redteam
+- [ariary/fileless-xec](https://github.com/ariary/fileless-xec)
+    - desc: Stealth dropper executing remote binaries without dropping them on disk .(HTTP3 support, ICMP support, invisible tracks, cross-platform,...) 
+    - tags: malwaredev
