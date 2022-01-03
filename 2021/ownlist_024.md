@@ -1,0 +1,164 @@
+## Issue 024 - Dec 2021
+
+### writeups
+- [Blinding EDR On Windows - Zach Stein](https://synzack.github.io/Blinding-EDR-On-Windows/)
+    - desc: edr evasion research
+    - tags: malwaredev
+- [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/eavsion/alternative-process-injection)
+    - desc: process injection research
+    - tags: malwaredev
+- [Writing Beacon Object Files: Flexible, Stealthy, and Compatible - Coresecurity](https://www.coresecurity.com/core-labs/articles/writing-beacon-object-files-flexibie-stealthy-and-compatible)
+    - desc: bof creation research
+    - tags: redteam
+- [Bypass the Detection & Prevention Obstacle: Red Teaming Technique - Lawrence Amer | CRESTCon Asia](https://www.youtube.com/watch?v=H7EMBz7GLMk)
+    - desc: edr evasion research
+    - tags: malwaredev
+- [Process Ghosting - pentestlaboratories.com](https://pentestlaboratories.com/2021/12/08/process-ghosting/)
+    - desc: edr evasion research
+    - tags: malwaredev
+- [CVE-2021-42287/CVE-2021-42278 Weaponisation - exploit-ph](https://exploit.ph/cve-2021-42287-cve-2021-42278-weaponisation.html)
+    - desc: CVE-2021-42278, CVE-2021-42291, CVE-2021-42287 and CVE-2021-42282 research (nopac/sam-the-admin)
+    - tags: windows, redteam
+- [Remote Deserialization Bug in Microsoft's RDP Client through Smart Card Extension (CVE-2021-38666) - THALIUM](https://thalium.github.io/blog/posts/deserialization-bug-through-rdp-smart-card-extension/)
+    - desc: RDP 0day research
+    - tags: windows, exploit
+- [Abusing Windows’ Implementation of Fork() for Stealthy Memory Operations - Bill Demirkapi](https://billdemirkapi.me/abusing-windows-implementation-of-fork-for-stealthy-memory-operations/)
+    - desc: evasion research
+    - tags: redteam, malwaredev
+- [DLL Hollowing - Dimitri Di Cristofaro](https://www.secforce.com/blog/dll-hollowing-a-deep-dive-into-a-stealthier-memory-allocation-variant/)
+    - desc: evasion research
+    - tags: malwaredev
+- [When You sysWhisper Loud Enough for AV to Hear You - capt. meelo](https://captmeelo.com/redteam/maldev/2021/11/18/av-evasion-syswhisper.html)
+    - desc: evasion research
+    - tags: malwaredev
+- [EDR, a closer look at protected services - infosec.tirol](https://www.infosec.tirol/edr-a-closer-look-at-protected-services/)
+    - desc: edr workings research
+    - tags: malwaredev, redteam
+- [Skrull: run malware on the victim using the Process Ghosting technique - do son](https://securityonline.info/skrull-run-malware-on-the-victim-using-the-process-ghosting-technique/)
+    - desc: evasion research
+    - tags: malwaredev
+    
+### tools
+- [WazeHell/sam-the-admin](https://github.com/WazeHell/sam-the-admin)
+    - desc: Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
+    - tags: windows, exploit, privesc
+- [cube0x0/noPac](https://github.com/cube0x0/noPac)
+    - desc: CVE-2021-42287/CVE-2021-42278 Scanner & Exploiter. 
+    - tags: windows, exploit, privesc
+- [wavestone-cdt/EDRSandblast](https://github.com/wavestone-cdt/EDRSandblast)
+    - desc: tool written in C that weaponize a vulnerable signed driver to bypass EDR detections
+    - tags: malwardev
+- [netmeld/netmeld](https://github.com/netmeld/netmeld)
+    - desc: A tool suite for use during system assessments. 
+    - tags: utility
+- [airbus-cert/Invoke-Bof](https://github.com/airbus-cert/Invoke-Bof)
+    - desc: Load any Beacon Object File using Powershell! 
+    - tags: redteam
+- [veracode-research/rogue-jndi](https://github.com/veracode-research/rogue-jndi)
+    - desc: malicious ldap server used for JNDI exploitation
+    - tags: web
+- [dirkjanm/forest-trust-tools](https://github.com/dirkjanm/forest-trust-tools)
+    - desc: poc tools for trust misuse
+    - tags: redteam
+- [nettitude/RunPE](https://github.com/nettitude/RunPE)
+    - desc: C# Reflective loader for unmanaged binaries.
+    - tags: malwaredev, redteam
+- [DarkCoderSc/PowerRunAsAttached](https://github.com/DarkCoderSc/PowerRunAsAttached)
+    - desc: This script allows to spawn a new interactive console as another user account in the same calling console (console instance/window). 
+    - tags: windows, postex
+- [skahwah/SSHClient](https://github.com/skahwah/SSHClient)
+    - desc: c# ssh client
+    - tags: malwaredev
+- [checkymander/Sharp-SMBExec](https://github.com/checkymander/Sharp-SMBExec)
+    - desc: c# smbexec
+    - tags: windows, redteam
+- [MartinSohn/Office-phish-templates](https://github.com/MartinSohn/Office-phish-templates)
+    - desc: Tricks the target into enabling content (macros) with fake messages.
+    - tags: phish
+- [trickster0/OffensiveRust](https://github.com/trickster0/OffensiveRust)
+    - desc: Rust Weaponization for Red Team Engagements. 
+    - tags: malwaredev
+- [mrthefakeperson/Excel-Virtual-Machine](https://github.com/mrthefakeperson/Excel-Virtual-Machine)
+    - desc: c compiler which targets Excel
+    - tags: malwaredev
+- [zeronetworks/BloodHound-Tools](https://github.com/zeronetworks/BloodHound-Tools)
+    - desc: collection of tools that reflect the network dimension into bloodhound's data
+    - tags: windows
+- [ExperienceOne/apikit](https://github.com/ExperienceOne/apikit)
+    - desc: Generates Golang client and server based on OpenAPI2 (swagger) definitions 
+    - tags: web
+- [9emin1/charlotte](https://github.com/9emin1/charlotte)
+    - desc: c++ fully undetected shellcode launcher
+    - tags: malwaredev
+- [sdcampbell/Internal-Pentest-Playbook](https://github.com/sdcampbell/Internal-Pentest-Playbook)
+    - desc: internal pentest playbook
+    - tags: utility
+- [nodauf/GoMapEnum](https://github.com/nodauf/GoMapEnum)
+    - desc: User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin 
+    - tags: phish, redteam
+- [0xDexter0us/Scavenger](https://github.com/0xDexter0us/Scavenger)
+    - desc: Burp extension to create target specific and tailored wordlist from burp history. 
+    - tags: web
+- [GoSecure/ldap-scanner](https://github.com/GoSecure/ldap-scanner)
+    - desc: Checks for signature requirements over LDAP 
+    - tags: windows, redteam
+- [moloch--/leakdb](https://github.com/moloch--/leakdb)
+    - desc: Web-Scale NoSQL Idempotent Cloud-Native Big-Data Serverless Plaintext Credential Search 
+    - tags: utility
+- [danports/cassia](https://github.com/danports/cassia)
+    - desc: Cassia is a .NET library for accessing the native Windows Remote Desktop Services API 
+    - tags: malwaredev
+- [sbasu7241/findhooks.cs](https://gist.github.com/sbasu7241/4c2640fb6dd5bfdcfac07b83f1648ee0)
+    - desc: identify edr hooks script
+    - tags: malwaredev
+- [KaLendsi/CVE-2021-43224-POC](https://github.com/KaLendsi/CVE-2021-43224-POC)
+    - desc: Windows Common Log File System Driver POC 
+    - tags: privesc
+- [tothi/log4shell-vulnerable-app](https://github.com/tothi/log4shell-vulnerable-app)
+    - desc: A Basic Java Application Vulnerable to the Log4Shell RCE 
+    - tags: web
+- [mufeedvh/moonwalk](https://github.com/mufeedvh/moonwalk)
+    - desc: Cover your tracks during Linux Exploitation by leaving zero traces
+    - tags: linux, postex
+- [fullhunt/log4j-scan ](https://github.com/fullhunt/log4j-scan/blob/master/headers-large.txt)
+    - desc: lof4j header list
+    - tags: web
+- [EspressoCake/NativeFunctionStaticMap](https://github.com/EspressoCake/NativeFunctionStaticMap)
+    - desc: A *very* imperfect attempt to correlate Kernel32 function calls to native API (Nt/Zw) counterparts/execution flow. 
+    - tags: malwaredev
+- [FULLSHADE/Jektor](https://github.com/FULLSHADE/Jektor)
+    - desc: A Windows user-mode shellcode execution tool that demonstrates various techniques that malware uses 
+    - tags: malwaredev
+- [pwn1sher/uuid-loader](https://github.com/pwn1sher/uuid-loader)
+    - desc: UUID based Shellcode loader for your favorite C2  (cpp)
+    - tags: malwaredev
+- [ricardojba/Invoke-noPac](https://github.com/ricardojba/Invoke-noPac)
+    - desc: CVE-2021-42278 and CVE-2021-42287 exploitation (noPac/sam-the-admin)
+    - tags: windows, redteam
+- [Yaxser/COFFLoader2](https://github.com/Yaxser/COFFLoader2)
+    - desc: Load and execute COFF files and Cobalt Strike BOFs in-memory 
+    - tags: redteam, malwaredev
+- [PalindromeLabs/STEWS](https://github.com/PalindromeLabs/STEWS)
+    - desc: A Security Tool for Enumerating WebSockets 
+    - tags: web
+- [KINGSABRI/goCabrito](https://github.com/KINGSABRI/goCabrito)
+    - desc: Super organized and flexible script for sending phishing campaigns 
+    - tags: phish, utility
+- [Souhardya/ChimeraLdr](https://github.com/Souhardya/ChimeraLdr)
+    - desc: Multipurpose malware framework utilizing vk.com as c2 
+    - tags: redteam, malwaredev
+- [cedowens/EntitlementCheck](https://github.com/cedowens/EntitlementCheck)
+    - desc: Python3 script for macOS to recursively check for binaries with problematic/interesting entitlements.
+    - tags: macos
+- [FDlucifer/Proxy-Attackchain](https://github.com/FDlucifer/Proxy-Attackchain)
+    - desc: proxylogon, proxyshell, proxyoracle and proxytoken full chain exploit tool 
+    - tags: windows, exploit
+- [jthuraisamy/TelemetrySourcerer](https://github.com/jthuraisamy/TelemetrySourcerer)
+    - desc: Enumerate and disable common sources of telemetry used by AV/EDR. 
+    - tags: malwaredev
+- [Retrospected/kerbmon](https://github.com/Retrospected/kerbmon)
+    - desc: Continuous kerberoast monitor 
+    - tags: windows, redteam
+- [bigb0sss/Bankai](https://github.com/bigb0sss/Bankai)
+    - desc: Another Go Shellcode Loader using Windows APIs
+    - tags: malwaredev
