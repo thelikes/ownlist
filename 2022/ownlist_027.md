@@ -4,6 +4,9 @@
 - [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/evasion/alternative-process-injection)
     - desc: alternative process injection research
     - tags: malwaredev
+- [Sandboxing Antimalware Products for Fun and Profit - Elastic Security Research](https://elastic.github.io/security-research/whitepapers/2022/02/02.sandboxing-antimalware-products-for-fun-and-profit/article/)
+    - desc: nerfing PPL research
+    - tags: redteam, windows
 - [Object Overloading - TrustedSec](https://www.trustedsec.com/blog/object-overloading/)
     - desc: dll loading research
     - tags: malwaredev
