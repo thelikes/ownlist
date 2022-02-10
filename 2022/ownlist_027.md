@@ -1,0 +1,200 @@
+## Issue 027 - Feb 2022
+
+### writeups
+- [Alternative Process Injection - Netero1010](https://www.netero1010-securitylab.com/evasion/alternative-process-injection)
+    - desc: alternative process injection research
+    - tags: malwaredev
+- [Object Overloading - TrustedSec](https://www.trustedsec.com/blog/object-overloading/)
+    - desc: dll loading research
+    - tags: malwaredev
+- [Shadow Credentials - Penetration Testing Lab](https://pentestlab.blog/2022/02/07/shadow-credentials/)
+    - desc: Windows Hello for Business (WHfB) research
+    - tags: windows, redteam
+- [Custom Previews For Malicious Attachments - Mrd0x](https://mrd0x.com/phishing-google-users-by-spoofing-previews/)
+    - desc: gdrive esq previews phishing pretext research
+    - tags: phishing, redteam
+- [Adding DCSync Permissions from Linux - n00py](https://www.n00py.io/2022/01/adding-dcsync-permissions-from-linux/)
+    - desc: DCSync attack from linux
+    - tags: windows, redteam
+- [Unpacking CVE-2021-40444: A Deep Technical Analysis of an Office RCE Exploit - Bill Demirkapi](https://billdemirkapi.me/unpacking-cve-2021-40444-microsoft-office-rce/)
+    - desc: Maldoc technique investigation
+    - tags: phishing, redteam, exploit
+- [Defeating EDRs with Office Products - Ivy](https://www.optiv.com/insights/source-zero/blog/defeating-edrs-office-products)
+    - desc: WSH evasion and generation
+    - tags: malwaredev
+- [Exploiting URL Parsing Confusion - Claroty](https://claroty.com/2022/01/10/blog-research-exploiting-url-parsing-confusion/)
+    - desc: URL parser research
+    - tags: web, exploit
+- [Delegate to KRBTGT service - Skyblue](https://skyblue.team/posts/delegate-krbtgt/)
+    - desc: Kerberos delegation research
+    - tags: windows, redteam
+- [How To Extract Credentials from Azure Kubernetes Service (AKS) - NetSpi](https://www.netspi.com/blog/technical/cloud-penetration-testing/extract-credentials-from-azure-kubernetes-service/)
+    - desc: Azure credential theft research
+    - tags: cloud, redteam
+- [Pass the Cloud with a Cookie - misconfig.io](https://misconfig.io/pass-the-cloud-with-cookie/)
+    - desc: Cloud cookie research
+    - tags: cloud, redteam
+- [Hacking the Apple Webcam (again) - ryanpickren](https://www.ryanpickren.com/safari-uxss)
+    - desc: macos vuln research
+    - tags: mac, exploit
+- [.NET Remoting Revisited - codewhite](https://codewhitesec.blogspot.com/2022/01/dotnet-remoting-revisited.html)
+    - desc: .net vuln/dev research
+    - tags: windows, malwaredev
+- [ZohOwned :: A Critical Authentication Bypass on Zoho ManageEngine Desktop Central - srcincite](https://srcincite.io/blog/2022/01/20/zohowned-a-critical-authentication-bypass-on-zoho-manageengine-desktop-central.html)
+    - desc: vuln research manageengine
+    - tags: exploit
+
+### tools
+- [elastic/PPLGuard](https://github.com/elastic/PPLGuard)
+    - desc: PPL threat mitigation
+    - tags: windows, privesc
+- [thefLink/RecycledGate](https://github.com/thefLink/RecycledGate)
+    - desc: Hellsgate + Halosgate/Tartarosgate. Ensures that all systemcalls go through ntdll.dll 
+    - tags: malwaredev
+- [juanfont/headscale](https://github.com/juanfont/headscale)
+    - desc: OSS self-hosted Tailscale control server
+    - tags: utility
+- [xenoscr/manual-syscall-detect](https://github.com/xenoscr/manual-syscall-detect)
+    - desc: A tool for detecting manual/direct syscalls in x86 and x64 processes using Nirvana Hooks. 
+    - tags: malwaredev
+- [b1tg/Ox-C2](https://github.com/b1tg/Ox-C2)
+    - desc: rust c2
+    - tags: redteam
+- [Kudaes/DInvoke_rs](https://github.com/Kudaes/DInvoke_rs)
+    - desc: Rust DInvoke port
+    - tags: malwaredev
+- [Idov31/FunctionStomping](https://github.com/Idov31/FunctionStomping)
+    - desc: "novel" shellcode injection technique
+    - tags: malwaredev
+- [chvancooten/NimPackt-v1](https://github.com/chvancooten/NimPackt-v1)
+    - desc: nim assembly packer and loader
+    - tags: malwaredev
+- [R4yGM/garlicshare](https://github.com/R4yGM/garlicshare)
+    - desc: Private and self-hosted file sharing over the Tor network written in golang 
+    - tags: utility
+- [Cyb3r4rch3r/PasswordList](https://github.com/Cyb3r4rch3r/PasswordList)
+    - desc: password dump collection
+    - tags: cracking, utility
+- [notdodo/LocalAdminSharp](https://github.com/notdodo/LocalAdminSharp)
+    - desc: c# make local admin
+    - tags: windows, privesc
+- [3xpl01tc0d3r/ProcessInjection](https://github.com/3xpl01tc0d3r/ProcessInjection)
+    - desc: various process injection technique PoCs
+    - tags: malwaredev
+- [lkarlslund/adalanche](https://github.com/lkarlslund/adalanche)
+    - desc: Active Directory ACL Visualizer and Explorer - who's really Domain Admin?
+    - tags: redteam, windows
+- [0xsp-SRD/mortar](https://github.com/0xsp-SRD/mortar)
+    - desc: memory stream encryption evasion technique to defeat and divert detection and prevention of security products (AV/EDR/XDR) 
+    - tags: malwaredev
+- [theparanoids/ashirt-server](https://github.com/theparanoids/ashirt-server)
+    - desc: Adversary Simulators High-Fidelity Intelligence and Reporting Toolkit 
+    - tags: utility
+- [mdsecactivebreach/ParallelSyscalls](https://github.com/mdsecactivebreach/ParallelSyscalls)
+    - desc: Syscall alternative PoC
+    - tags: malwaredewv
+- [DarkCoderSc/PowerRemoteDesktop](https://github.com/DarkCoderSc/PowerRemoteDesktop)
+    - desc: RDP Powershell port
+    - tags: utility
+- [ad-995/bluffy](https://github.com/ad-995/bluffy)
+    - desc: Convert shellcode into different formats
+    - tags: malwaredev
+- [trickster0/LdrLoadDll-Unhooking](https://github.com/trickster0/LdrLoadDll-Unhooking)
+    - desc: LdrLoadDll unhooking
+    - tags: malwaredev
+- [dhondta/awesome-executable-packing](https://github.com/dhondta/awesome-executable-packing)
+    - desc: curated list of resources related to executable packing
+    - tags: malwaredev
+- [0vercl0k/CVE-2021-31166](https://github.com/0vercl0k/CVE-2021-31166)
+    - desc: http.sys RCE PoC
+    - tags: web, exploit
+- [zimawhit3/HellsGateNim](https://github.com/zimawhit3/HellsGateNim)
+    - desc: Nim port Hellsgate
+    - tags: malwaredev
+- [voutilad/BloodHound-Tools](https://github.com/voutilad/BloodHound-Tools)
+    - desc: misc. tools for bloodhound
+    - tags: utility, redteam
+- [zyn3rgy/LdapRelayScan](https://github.com/zyn3rgy/LdapRelayScan)
+    - desc: ldapS protections against relay scanner
+    - tags: windows
+- [89luca89/pakkero](https://github.com/89luca89/pakkero)
+    - desc: go binary packer
+    - tags: malwaredev
+- [trustedsec/SeeYouCM-Thief](https://github.com/trustedsec/SeeYouCM-Thief)
+    - desc: Cisco phone raider
+    - tags: exploit, infra
+- [six2dez/OneListForAll](https://github.com/six2dez/OneListForAll)
+    - desc: rockyou.txt for web fuzzing
+    - tags: web
+- [blacklanternsecurity/TREVORspray](https://github.com/blacklanternsecurity/TREVORspray)
+    - desc: pw sprayer
+    - tags: exploit
+- [Wra7h/SharpGhosting](https://github.com/Wra7h/SharpGhosting)
+    - desc: c# port process ghosting
+    - tags: malwaredev
+- [dosxuz/ProcessGhosting](https://github.com/dosxuz/ProcessGhosting)
+    - desc: c# port process ghosting
+    - tags: malwaredev
+- [BishopFox/CVE-2021-35211](https://github.com/BishopFox/CVE-2021-35211)
+    - desc: SERV-U RCE PoC
+    - tags: exploit, web
+- [jfmaes/AmsiHooker](https://github.com/jfmaes/AmsiHooker)
+    - desc: hook (not patch) amsi
+    - tags: malwaredev
+- [wireghoul/htshells](https://github.com/wireghoul/htshells)
+    - desc: htaccess shell collection
+    - tags: web, exploit
+- [khuedoan/homelab](https://github.com/khuedoan/homelab)
+    - desc: homelab automation
+    - tags: utility
+- [nasbench/C2-Matrix-Indicators](https://github.com/nasbench/C2-Matrix-Indicators)
+    - desc: c2 indicator collection
+    - tags: malwaredev
+- [AttackForge](https://attackforge.com/)
+    - desc: pentest management platform
+    - tags: utility
+- [resyncgg/ripgen](https://github.com/resyncgg/ripgen)
+    - desc: rust dns resolver
+    - tags: recon, web
+- [hlldz/RefleXXion](https://github.com/hlldz/RefleXXion)
+    - desc: Parralell-ysis like, Syscall collection / evasion
+    - tags: malwaredev
+- [Qianlitp/crawlergo](https://github.com/Qianlitp/crawlergo)
+    - desc: go web crawler
+    - tags: web, recon
+- [icyguider/nimcrypt](https://github.com/icyguider/nimcrypt)
+    - desc: PE crypter written in Nim
+    - tags: malwaredev
+- [S3cur3Th1sSh1t/NimGetSyscallStub](https://github.com/S3cur3Th1sSh1t/NimGetSyscallStub)
+    - desc: Syscall nim port
+    - tags: malwaredev
+- [frkngksl/ParallelNimcalls](https://github.com/frkngksl/ParallelNimcalls)
+    - desc: Parallel-asis Nim port
+    - tags: malwaredev
+- [rustrat/rustrat](https://github.com/rustrat/rustrat)
+    - desc: rust c2
+    - tags: redteam
+- [ly4k/PwnKit](https://github.com/ly4k/PwnKit)
+    - desc: Polkit-giest PoC
+    - tags: exploit
+- [plackyhacker/Suspended-Thread-Injection](https://github.com/plackyhacker/Suspended-Thread-Injection)
+    - desc: shellcode injection technique
+    - tags: malwaredev
+- [optiv/Ivy](https://github.com/optiv/Ivy)
+    - desc: advanced WSH shellcode runner
+    - tags: malwaredev, redteam
+- [knavesec/CredMaster](https://github.com/knavesec/CredMaster)
+    - desc: CredKing port (pw spraying)
+    - tags: exploit
+- [ORCA666/T.D.P](https://github.com/ORCA666/T.D.P)
+    - desc: Shellcode runner using Thread Description Poisoning
+    - tags: malwaredev
+- [scythe-io/community-threats](https://github.com/scythe-io/community-threats)
+    - desc: largest, public library of adversary emulation plans in JSON
+    - tags: redteam
+- [login-securite/DonPAPI](https://github.com/login-securite/DonPAPI)
+    - desc: DPAPI remote dumper
+    - tags: windows, redteam
+- [fyoorer/ShadowClone](https://github.com/fyoorer/ShadowClone)
+    - desc: tool to distribute local command to N servers
+    - tags: utility
