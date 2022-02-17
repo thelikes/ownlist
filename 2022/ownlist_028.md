@@ -1,0 +1,173 @@
+## Issue 028 - Feb 2022
+
+### writeups
+- [A primer on DCSync attack and detection - alteredsecurity](https://www.alteredsecurity.com/post/a-primer-on-dcsync-attack-and-detection)
+    - desc: dsync attack research
+    - tags: windows, redteam
+- [Bypassing Little Snitch Firewall with Empty TCP Packets - Rhino](https://rhinosecuritylabs.com/network-security/bypassing-little-snitch-firewall/)
+    - desc: little snitch research
+    - tags: macos
+- [I’m bringing relaying back: A comprehensive guide on relaying anno 2022 - trustedsec](https://www.trustedsec.com/blog/a-comprehensive-guide-on-relaying-anno-2022/)
+    - desc: relay research (already outdated) (when did relaying go away?)
+    - tags: windows, exploit, redteam
+- [Hacking .Net Games With DnSpy - Brandon Roldan](https://noob3xploiter.medium.com/hacking-net-games-with-dnspy-73e1441f81c1)
+    - desc: DnSpy how to 
+    - tags: malwaredev
+- [EmbedExeLnk - Embedding an EXE inside a LNK with automatic execution - x86mathew](https://www.x86matthew.com/view_post?id=embed_exe_lnk)
+    - desc: LNK research
+    - tags: malwaredev, phishing, redteam
+- [Reading and writing remote process data without using ReadProcessMemory / WriteProcessMemory - x86mathew](https://www.x86matthew.com/view_post?id=read_write_proc_memory)
+    - desc: ReadProcessMemroy alternative - malwaredev
+    - tags: malwaredev
+- [Downloads and the Mark-of-the-Web - textslashplain](https://textslashplain.com/2016/04/04/downloads-and-the-mark-of-the-web/)
+    - desc: Mark of the web research
+    - tags: windows
+- [SIM Hijacking](https://sensepost.com/blog/2022/sim-hijacking/)
+    - desc: sim hijacking research
+    - tags: phishing, redteam
+- [Attack Surface Reduction - commial](https://github.com/commial/experiments/tree/master/windows-defender/ASR)
+    - desc: ASR research
+    - tags: windows, redteam
+- [Windows Persistence Using WSL2 - themayor.tech](https://medium.themayor.tech/windows-persistence-using-wsl2-8f87e319ea56)
+    - desc: windows wsl persistence research
+    - tags: windows
+- [PPE — Poisoned Pipeline Execution - Omer Gil](https://medium.com/cider-sec/ppe-poisoned-pipeline-execution-34f4e8d0d4e9)
+    - desc: CI/CD pipeline exploitation research
+    - tags: redteam
+- [(Rust) Parallel Syscalls - memn0ps](https://memn0ps.github.io/Parallel-Syscalls/)
+    - desc: rust based parallel syscalls
+    - tags: malwaredev
+- [Abusing Exceptions for Code Execution, Part 1 - Bill Demirkapi](https://billdemirkapi.me/exception-oriented-programming-abusing-exceptions-for-code-execution-part-1/)
+    - desc: executing just-in-time code by abusing existing memory regions [tool](https://github.com/D4stiny/ExceptionOrientedProgramming)
+    - tags: malwaredev
+- [Retrieving Syscall ID with Hell's Gate, Halo's Gate, FreshyCalls and Syswhispers2 - Alice Climent Pommeret](https://alice.climent-pommeret.red/posts/direct-syscalls-hells-halos-syswhispers2/)
+    - desc: process injection research
+    - tags: malwaredev
+- [Staged vs Stageless Payloads - spookysec](https://blog.spookysec.net/stage-v-stageless-1/)
+    - desc: malware evasion research
+    - tags: malwaredev, redteam
+- [10 ways of gaining control over Azure function Apps - Billuk21](https://medium.com/xm-cyber/10-ways-of-gaining-control-over-azure-function-apps-7e7b84367ce6)
+    - desc: azure functions exploit research
+    - tags: cloud
+- [Useful Libraries for Malware Development - captmeelo](https://captmeelo.com/redteam/maldev/2022/02/16/libraries-for-maldev.html)
+    - desc: collection of useful malwaredev libs
+    - tags: malwaredev
+- [GitHub: The Red-Teamer’s Cheat-Sheet - Komodo Consulting](https://medium.com/@TheKomodoconsulting/github-the-red-teamers-cheat-sheet-56e36a792cdb)
+    - desc: github hacking guide
+    - tags: web, osint
+- [Password spraying and MFA bypasses in the modern security landscape - sprocketsecurity](https://www.sprocketsecurity.com/blog/how-to-bypass-mfa-all-day)
+    - desc: (NTLM) authentication over HTTP password spraying
+    - tags: windows
+- [Exploring Windows UAC Bypasses: Techniques and Detection Strategies - elastic security research](https://elastic.github.io/security-research/whitepapers/2022/02/03.exploring-windows-uac-bypass-techniques-detection-strategies/article/)
+    - desc: uac bypass research
+    - tags: windows, privesc
+- [AD CS: from ManageCA to RCE - BlackArrow](https://www.blackarrow.net/ad-cs-from-manageca-to-rce/)
+    - desc: adcs research
+    - tags: windows, redteam
+- [ShadowCoerce - pentestlaboratories](https://pentestlaboratories.com/2022/01/11/shadowcoerce/)
+    - desc: MS-EFSR research
+    - tags: windows
+
+### tools
+- [michelin/ChopChop](https://github.com/michelin/ChopChop)
+    - desc: web endpiont scanner
+    - tags: web
+- [dosxuz/ProcessGhosting](https://github.com/dosxuz/ProcessGhosting)
+    - desc: ghosting poc - [blog](https://dosxuz.gitlab.io/post/processghosting/)
+    - tags: malwaredev
+- [chdav/GoWard](https://github.com/chdav/GoWard)
+    - desc: golang redteam proxy
+    - tags: utilities
+- [FourCoreLabs/EDRHunt](https://github.com/FourCoreLabs/EDRHunt)
+    - desc: golang edr scanner
+    - tags: redteam
+- [codewhitesec/RogueRemotingServer](https://github.com/codewhitesec/RogueRemotingServer)
+    - desc: .net remoting server to deliver BinaryFormatter/SoapFormatter payloads
+    - tags: web, exploit
+- [pwn1sher/KillDefender](https://github.com/pwn1sher/KillDefender)
+    - desc: defender token integrity poc
+    - tags: windows, exploit
+- [RedTeamOperations/Advanced-Process-Injection-Workshop](https://github.com/RedTeamOperations/Advanced-Process-Injection-Workshop)
+    - desc: malware dev research
+    - tags: malwaredev
+- [bugch3ck/SharpLdapWhoami](https://github.com/bugch3ck/SharpLdapWhoami)
+    - desc: whoami alternative using ldap
+    - tags: windows
+- [carlospolop/PurplePanda](https://github.com/carlospolop/PurplePanda)
+    - desc: identify priv escalation paths within & across clouds
+    - tags: cloud
+- [cldrn/InsecureProgrammingDB](https://github.com/cldrn/InsecureProgrammingDB)
+    - desc: insecure programming functions database
+    - tags: utility
+- [icyguider/Shhhloader](https://github.com/icyguider/Shhhloader)
+    - desc: SysWhispers Shellcode Loader
+    - tags: malwaredev
+- [Tw1sm/spraycharles](https://github.com/Tw1sm/spraycharles) 
+    - desc: low and slow password sprayer
+    - tags: windows
+- [PwnDexter/Invoke-EDRChecker](https://github.com/PwnDexter/Invoke-EDRChecker)
+    - desc: edr scanner (powershell)
+    - tags: windows, redteam
+- [fofapro/fapro](https://github.com/fofapro/fapro)
+    - desc: rogue protocol server
+    - tags: utility
+- [ChadMotivation/TymSpecial](https://github.com/ChadMotivation/TymSpecial)
+    - desc: SysWhispers integrated shellcode loader w/ ETW patching, anti-sandboxing, & spoofed code signing certificates 
+    - tags: malwaredev
+- [sbasu7241/HellsGate](https://github.com/sbasu7241/HellsGate)
+    - desc: hellsgate poc
+    - tags: malwaredev
+- [Allevon412/PPL_Sandboxer](https://github.com/Allevon412/PPL_Sandboxer)
+    - desc: defender token integrity poc
+    - tags: windows, exploit
+- [daem0nc0re/PrivFu](https://github.com/daem0nc0re/PrivFu)
+    - desc: Kernel mode WinDbg extension
+    - tags: reversing
+- [0xthirteen/SharpStay](https://github.com/0xthirteen/SharpStay)
+    - desc: .net persistence pocs
+    - tags: redteam
+- [S3cur3Th1sSh1t/Invoke-HandleKatzInject.ps1 ](https://gist.github.com/S3cur3Th1sSh1t/9f328fc411ff103c0800294c523503e2)
+    - desc: handlekatz powershell wrapper
+    - tags: windows, redteam
+- [dbrwsky/Nuclei-BurpExtension](https://github.com/dbrwsky/Nuclei-BurpExtension)
+    - desc: nuclei in burp
+    - tags: web, exploit
+- [whydee86/SnD_AMSI](https://github.com/whydee86/SnD_AMSI)
+    - desc: start new powershell without etw and amsi in pure nim
+    - tags: windows, redteam, malwaredev
+- [adrianyy/KeInject](https://github.com/adrianyy/KeInject)
+    - desc: kernel LdrLoadDll injector
+    - tags: malwaredev
+- [alexfrancow/offensive-vlang](https://github.com/alexfrancow/offensive-vlang)
+    - desc: V lang pocs
+    - tags: malwaredev
+- [ly4k/SpoolFool](https://github.com/ly4k/SpoolFool)
+    - desc: CVE-2022-21999 poc
+    - tags: windows, exploit
+- [mgeeky/PackMyPayload](https://github.com/mgeeky/PackMyPayload)
+    - desc: python payload packer
+    - tags: malwaredev
+- [dadas190/Heavens-Gate-2.0](https://github.com/dadas190/Heavens-Gate-2.0)
+    - desc: heaven's gate poc
+    - tags: malwaredev
+- [Puliczek/awesome-list-of-secrets-in-environment-variables](https://github.com/Puliczek/awesome-list-of-secrets-in-environment-variables)
+    - desc: env var secret db
+    - tags: utility
+- [cube0x0/KrbRelay](https://github.com/cube0x0/KrbRelay)
+    - desc: framework for kerberos relaying
+    - tags: windows, redteam
+- [Arno0x/ShellcodeWrapper](https://github.com/Arno0x/ShellcodeWrapper)
+    - desc: shellcode packer (python)
+    - tags: malwaredev
+- [mkellerman/Invoke-CommandAs](https://github.com/mkellerman/Invoke-CommandAs)
+    - desc: Invoke Command As System/Interactive/GMSA/User on Local/Remote machine & returns PSObjects. 
+    - tags: windows
+- [asherezade/process_overwriting](https://github.com/hasherezade/process_overwriting)
+    - desc: Yet another variant of Process Hollowing 
+    - tags: malwaredev
+- [horizon3ai/backup_dc_registry](https://github.com/horizon3ai/backup_dc_registry)
+    - desc: Backup Operator priv esc poc
+    - tags: windows, redteam
+- [mpgn/BackupOperatorToDA](https://github.com/mpgn/BackupOperatorToDA)
+    - desc: Backup Operator priv esc poc
+    - tags: windows, redteam
