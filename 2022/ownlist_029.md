@@ -1,0 +1,62 @@
+## Issue 029 - Apr 2022
+
+### writeups
+- [red-team-operations/initial-access](https://red.0xbad53c.com/red-team-operations/initial-access/webshells/iis-soap)
+    - desc: IIS + SOAP code exec
+    - tags: windows, exploit
+- [PTSwarm - Twiiter](https://twitter.com/ptswarm/status/1506997093893869569?cxt=HHwWgsC4sev39ukpAAAA)
+    - desc: GenericWrite/GenericAll exploitation tip
+    - tags: windows, postex
+- [Escalating from Logic App Contributor to Root Owner in Azure](https://www.netspi.com/blog/technical/cloud-penetration-testing/azure-logic-app-contributor-escalation-to-root-owner/)
+    - desc: Azure Logic App research
+    - tags: cloud
+- [Bind Payload using SFX archive with Trojanizer - Raj Chandel](https://www.hackingarticles.in/bind-payload-using-sfx-archive-trojanizer/)
+    - desc: SFX malware
+    - tags: malwaredev
+
+### tools
+- [posts/exploring-dll-loads](https://mez0.cc/posts/exploring-dll-loads/)
+    - desc: 
+    - tags:
+- [zblurx/acltoolkit](https://github.com/zblurx/acltoolkit)
+    - desc: ACL abuse swiss-knife
+    - tags: utility
+- [mandiant/SharPersist](https://github.com/mandiant/SharPersist)
+    - desc: Windows persistent tool 
+    - tags: Windows, postex
+- [horizon3ai/vcenter_saml_login](https://github.com/horizon3ai/vcenter_saml_login)
+    - desc: vCenter SAML session forge tool
+    - tags: exploit
+- [clem9669/hashcat-rule](https://github.com/clem9669/hashcat-rule)
+    - desc: hashcat rules
+    - tags: cracking
+- [s0md3v/Smap](https://github.com/s0md3v/Smap)
+    - desc: passive nmap-like scanner using shodan
+    - tags: utility, recon
+- [adamsvoboda/nim-loader](https://github.com/adamsvoboda/nim-loader)
+    - desc: WIP shellcode loader in nim with EDR evasion techniques 
+    - tags: malwaredev
+- [pathtofile/bad-bpf](https://github.com/pathtofile/bad-bpf)
+    - desc: bad eBPF programs
+    - tags: exploit
+- [IcebreakerSecurity/DelegationBOF](https://github.com/IcebreakerSecurity/DelegationBOF)
+    - desc: Kerberos delegation BOF
+    - tags: windows, postex
+- [daem0nc0re/AtomicSyscall](https://github.com/daem0nc0re/AtomicSyscall)
+    - desc: Tools/PoC for windows syscall investigation
+    - tags: malwaredev
+- [qeeqbox/octopus](https://github.com/qeeqbox/octopus)
+    - desc: Pure Honeypots with an automated bash script
+    - tags: utility, blue
+- [ivre/ivre](https://github.com/ivre/ivre)
+    - desc: Network recon framework
+    - tags: recon, web, bounty
+- [NtQuerySystemInformation/CustomKeyboardLayoutPersistence](https://github.com/NtQuerySystemInformation/CustomKeyboardLayoutPersistence)
+    - desc: Persistence PoC using Custom Keyboard Layout
+    - tags: malwaredev
+- [Orange-Cyberdefense/fenrir-ocd](https://github.com/Orange-Cyberdefense/fenrir-ocd)
+    - desc: WiFi attack tool
+    - tags: wireless
+- [Orange-Cyberdefense/GOAD](https://github.com/Orange-Cyberdefense/GOAD)
+    - desc: AD lab automated setup
+    - tags: lab
