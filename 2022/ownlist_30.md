@@ -1,0 +1,65 @@
+## Issue 029 - Apr 2022
+
+### writeups
+- [Azure Dominance Paths - Cloudbrothers](https://cloudbrothers.info/en/azure-dominance-paths/)
+    - desc: Azure dominance research
+    - tags: cloud
+- [ABC-Code Execution for Veeam - MDsec](https://www.mdsec.co.uk/2022/03/abc-code-execution-for-veeam/)
+    - desc: Veeam Backup & Replication vuln research
+    - tags: windows, cloud
+- [New Ransomware Family Identified: LokiLocker RaaS Targets Windows Systems - BlackBerry Threat Vector](https://blogs.blackberry.com/en/2022/03/lokilocker-ransomware)
+    - desc: LokiLocker Raas Investigation
+    - tags: ransom
+- [Docker for Pentesters - ropnop](https://blog.ropnop.com/docker-for-pentesters/)
+    - desc: docker how to
+    - tags: utility, guide
+- [Backdooring WordPress using PyShell - WPSEC](https://blog.wpsec.com/backdooring-wordpress-using-pyshell/)
+    - desc: WP persistence
+    - tags: exploit, web
+- [How I bypassed disable_functions in php to get a remote shell - Asem Eleraky](https://infosecwriteups.com/how-i-bypassed-disable-functions-in-php-to-get-a-remote-shell-48b827d54979)
+    - desc: PHP protection bypass
+    - tags: exploit, web
+- [Introducing RunOF – Arbitrary BOF tool - nettidtude](https://labs.nettitude.com/blog/introducing-runof-arbitrary-bof-tool/)
+    - desc: Arbitrary BOF tool
+    - tags: c2
+- [Decrypting Viscosity Passwords - Scottie Austin](https://blog.checkymander.com/red%20team/viscosity/decrypt-viscosity-passwords/)
+    - desc: Viscosity attack research
+    - tags: guide, postex
+- [Oracle Access Manager Pre-Auth RCE (CVE-2021–35587 Analysis) - Jan](https://testbnull.medium.com/oracle-access-manager-pre-auth-rce-cve-2021-35587-analysis-1302a4542316)
+    - desc: Oracle Access Manager (OAM) vuln research
+    - tags: exploit, web
+- [In the Potato family, I want them all - HideAndSec](https://hideandsec.sh/books/windows-sNL/page/in-the-potato-family-i-want-them-all)
+    - desc: Potato tooling overview
+    - tags: windows, postex, exploit
+- [Password spraying and MFA bypasses in the modern security landscape - Sprocket](https://www.sprocketsecurity.com/blog/how-to-bypass-mfa-all-day)
+    - desc: Bypassing MFA (owa, exchange, o365) research
+    - tags: recon, windows, cloud
+
+### tools
+- [VirtualAlllocEx/Payload-Download-Cradles](https://github.com/VirtualAlllocEx/Payload-Download-Cradles)
+    - desc: Download cradle PoCs
+    - tags: malwaredev
+- [VirtualAlllocEx/Shellcode-Downloader-CreateThread-Execution](https://github.com/VirtualAlllocEx/Shellcode-Downloader-CreateThread-Execution)
+    - desc: CreateThread download cradle loader
+    - tags: malwaredev
+- [shogunlab/Mochi](https://github.com/shogunlab/Mochi)
+    - desc: shaiscript loader
+    - tags: malwaredev
+- [skahwah/hollow.cs](https://gist.github.com/skahwah/a585e176e4a5cf319b0c759637f5c410)
+    - desc: Custom assembly that is compatible with SQL CLR attacks. 
+    - tags: malwaredev, windows, exploit
+- [shellfarmer/WeakestLink](https://github.com/shellfarmer/WeakestLink)
+    - desc: LinkedIn exfil browser extension 
+    - tags: osint
+- [resyncgg/ripgen](https://github.com/resyncgg/ripgen/)
+    - desc: Rust-based high performance domain permutation generator
+    - tags: web, osint
+- [whoismept/IronSharp](https://github.com/whoismept/IronSharp)
+    - desc: detects CVEs caused by missing updates and privilege escalation vulnerabilities caused by misconfigurations on Windows
+    - tags: windows, postex, privesc
+- [cybercdh/kitphishr](https://github.com/cybercdh/kitphishr)
+    - desc: A tool designed to hunt for Phishing Kit source code 
+    - tags: blue
+- [Group3r/Group3r](https://github.com/Group3r/Group3r)
+    - desc: Find vulnerabilities in AD Group Policy, but do it better than Grouper2 did. 
+    - tags: windows, postex
