@@ -1,0 +1,62 @@
+## Issue 031 - May 2022
+
+### writeups
+- [Building an Active Directory Lab - Part 1 - spookysec](https://blog.spookysec.net/ad-lab-1/)
+    - desc: home lab guide
+    - tags: utility
+- [yeswerhackers/subdomains-tools-review-full-detailed-comparison](https://blog.yeswehack.com/yeswerhackers/subdomains-tools-review-full-detailed-comparison/)
+    - desc: sub hunt tool investigation
+    - tags: recon, osint, web
+- [Making NtCreateUserProcess Work - Capt Meelo](https://captmeelo.com/redteam/maldev/2022/05/10/ntcreateuserprocess.html)
+    - desc: NtCreateUserProcess research
+    - tags: malwaredev
+- [malapi.io](https://malapi.io/)
+    - desc:MalAPI.io maps Windows APIs to common techniques used by malware. 
+    - tags: malwaredev
+- [Steal Credentials & Bypass 2FA Using noVNC - mr.d0x](https://mrd0x.com/bypass-2fa-using-novnc)
+    - desc: noVNC credential harvesting technique
+    - tags: phish
+- [Automating a Red Team Lab (Part 1): Domain Creation - nickzero](https://nickzero.co.uk/automating-a-red-team-lab/)
+    - desc: home lab guide
+    - tags: utility
+
+### tools
+- [projectdiscovery/uncover](https://github.com/projectdiscovery/uncover)
+    - desc: Quickly discover exposed hosts on the internet using multiple search engine. 
+    - tags: osint, recon, web
+- [HuskyHacks/RustyProcessInjectors](https://github.com/HuskyHacks/RustyProcessInjectors)
+    - desc: Just some Rust process injector POCs, nothing weird. 
+    - tags: malwaredev
+- [Hurn99/ImitateCobaltStrikeShellcode](https://github.com/Hurn99/ImitateCobaltStrikeShellcode)
+    - desc: Imitate CobaltStrike's Shellcode Generation 
+    - tags: malwaredev
+- [klezVirus/SysWhispers3](https://github.com/klezVirus/SysWhispers3)
+    - desc: SysWhispers on Steroids - AV/EDR evasion via direct system calls
+    - tags: malwaredev
+- [paranoidninja/O365-Doppelganger](https://github.com/paranoidninja/O365-Doppelganger)
+    - desc: A quick handy script to harvest credentials off of a user during a Red Team and get execution of a file from the user 
+    - tags: phish
+- [cube0x0/SyscallPack](https://github.com/cube0x0/SyscallPack)
+    - desc: BOF and Shellcode for full DLL unhooking using dynamic syscalls 
+    - tags: c2, malwaredev
+- [Arinerron/CVE-2022-0847-DirtyPipe-Exploit](https://github.com/Arinerron/CVE-2022-0847-DirtyPipe-Exploit)
+    - desc: A root exploit for CVE-2022-0847 (Dirty Pipe) 
+    - tags: exploit
+- [clibs/clib](https://github.com/clibs/clib)
+    - desc: C package manager-ish
+    - tags: utility
+- [alfarom256/StinkyLoader](https://github.com/alfarom256/StinkyLoader)
+    - desc: WIP implementation of a reflective loader written in C++
+    - tags: malwaredev
+- [citronneur/rdpy](https://github.com/citronneur/rdpy)
+    - desc: Remote Desktop Protocol in Twisted Python 
+    - tags: windows, utility
+- [Semperis/GoldenGMSA](https://github.com/Semperis/GoldenGMSA)
+    - desc: GolenGMSA tool for working with GMSA passwords 
+    - tags: windows, postex
+- [crummie5/FreshyCalls](https://github.com/crummie5/FreshyCalls)
+    - desc: FreshyCalls tries to make the use of syscalls comfortable and simple, without generating too much boilerplate and in modern C++17! 
+    - tags: malwaredev
+- [Cracked5pider/ShellcodeTemplate](https://github.com/Cracked5pider/ShellcodeTemplate)
+    - desc: An easily modifiable shellcode template for Windows x64/x86 
+    - tags: malwardev

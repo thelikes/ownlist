@@ -1,4 +1,4 @@
-## Issue 029 - Apr 2022
+## Issue 030 - Apr 2022
 
 ### writeups
 - [Azure Dominance Paths - Cloudbrothers](https://cloudbrothers.info/en/azure-dominance-paths/)
