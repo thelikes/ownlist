@@ -1,0 +1,110 @@
+## Issue 042 - Mar 2023
+
+### writeups
+- [Token Impersonation in C# – Rasta Mouse](https://rastamouse.me/token-impersonation-in-csharp/)
+    - desc: Token Impersonation in C# – Rasta Mouse
+    - tags: redteam
+- [Home Grown Red Team: Let’s Make Some Malware In C: Part 2 | by assume-breach | Medium](https://assume-breach.medium.com/home-grown-red-team-lets-make-some-malware-in-c-part-2-27a9a6def9b0)
+    - desc: Home Grown Red Team: Let’s Make Some Malware In C: Part 2 | by assume-breach | Medium
+    - tags: redteam
+- [Avoiding Detection with Shellcode Mutator - Nettitude Labs](https://labs.nettitude.com/blog/shellcode-source-mutations/)
+    - desc: Avoiding Detection with Shellcode Mutator - Nettitude Labs
+    - tags: malwaredev
+- [Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR](https://research.ifcr.dk/pass-the-challenge-defeating-windows-defender-credential-guard-31a892eee22)
+    - desc: Pass-the-Challenge: Defeating Windows Defender Credential Guard | by Oliver Lyak | IFCR
+    - tags: windows, redteam
+- [Screenshot Tool: Part 6 - Which Tool Is Best? | White Oak Security](https://www.whiteoaksecurity.com/blog/screenshot-tool-part-6-which-tool-is-best/)
+    - desc: Screenshot Tool: Part 6 - Which Tool Is Best? | White Oak Security
+    - tags: recon, utility
+- [.NET Startup Hooks – Rasta Mouse](https://rastamouse.me/net-startup-hooks/)
+    - desc: .NET Startup Hooks – Rasta Mouse
+    - tags: malwaredev
+- [Windows Incident Response: Persistence and LOLBins](http://windowsir.blogspot.com/2022/12/persistence-and-lolbins.html)
+    - desc: Windows Incident Response: Persistence and LOLBins , registry
+    - tags: windows, redteam
+- [DLL Sideloading not by DLLMain - Intruder](https://www.redteam.cafe/red-team/dll-sideloading/dll-sideloading-not-by-dllmain)
+    - desc: DLL Sideloading not by DLLMain - Intruder
+    - tags: malwaredev
+- [Bypassing host security checks on a modern VPN solution - RiskInsight](https://www.riskinsight-wavestone.com/en/2023/01/bypassing-host-security-checks-on-a-modern-vpn-solution/)
+    - desc: Bypassing host security checks on a modern VPN solution - RiskInsight
+    - tags: redteam
+- [SCCM Site Takeover via Automatic Client Push Installation | by Chris Thompson | Jan, 2023 | Posts By SpecterOps Team Members](https://posts.specterops.io/sccm-site-takeover-via-automatic-client-push-installation-f567ec80d5b1)
+    - desc: SCCM Site Takeover via Automatic Client Push Installation | by Chris Thompson | Jan, 2023 | Posts By SpecterOps Team Members
+    - tags: redteam
+- [Active Directory: Using LDAP Queries for Stealthy Enumeration - ](https://snikt.net/blog/2023/01/25/active-directory-using-ldap-queries-for-stealthy-enumeration/)
+    - desc: Active Directory: Using LDAP Queries for Stealthy Enumeration - 
+    - tags: redteam, windows
+- [snovvcrash/PPN](https://github.com/snovvcrash/PPN)
+    - desc: Pentester's Promiscuous Notebook
+    - tags: learn
+- [Kerberoast with OpSec | Microsoft 365 Security](https://m365internals.com/2021/11/08/kerberoast-with-opsec/)
+    - desc: Kerberoast with OpSec | Microsoft 365 Security
+    - tags: redteam, windows
+- [Reconnaissance – Geek Freak](https://dhiyaneshgeek.github.io/red/teaming/2022/04/28/reconnaissance-red-teaming/)
+    - desc: Reconnaissance – Geek Freak
+    - tags: recon
+- [An introduction to privileged file operation abuse on Windows - Almond Offensive Security Blog](https://offsec.almond.consulting/intro-to-file-operation-abuse-on-Windows.html)
+    - desc: An introduction to privileged file operation abuse on Windows - Almond Offensive Security Blog
+    - tags: windows, privesc, redteam
+- [API Unhooking with Perun's Fart - Blog by Dosxuz](https://dosxuz.gitlab.io/post/perunsfart/)
+    - desc: API Unhooking with Perun's Fart - Blog by Dosxuz
+    - tags: malwaredev
+- [A few Tailscale tricks for Security Testers](https://pulsesecurity.co.nz/articles/some-tailscale-tricks)
+    - desc: A few Tailscale tricks for Security Testers
+    - tags: redteam
+- [Miracle - One Vulnerability To Rule Them All | by Peterjson | Medium](https://peterjson.medium.com/miracle-one-vulnerability-to-rule-them-all-c3aed9edeea2)
+    - desc: Miracle - One Vulnerability To Rule Them All | by Peterjson | Medium
+    - tags: web, exploit
+
+### tools
+- [deepinstinct/Dirty-Vanity](https://github.com/deepinstinct/Dirty-Vanity)
+    - desc: A POC for the new injection technique, abusing windows fork API to evade EDRs. https://www.blackhat.com/eu-22/briefings/schedule/index.html#dirty-vanity-a-new-approach-to-code-injection--edr-bypass-28417
+    - tags: malwaredev
+- [bw3ll/sharem](https://github.com/bw3ll/sharem)
+    - desc: SHAREM is a shellcode analysis framework, capable of emulating more than 12,000 WinAPIs and virutally all Windows syscalls. It also contains its own custom disassembler, with many innovative features, such as being able to show the deobfuscated disassembly of an encoded shellcode, or integrating emulation data to enhance the disassembly.
+    - tags: utility, malwaredev
+- [KINGSABRI/ServerlessRedirector](https://github.com/KINGSABRI/ServerlessRedirector)
+    - desc: Serverless Redirector in various cloud vendor for red team
+    - tags: redteam, phish
+- [jackmichalak/phishim](https://github.com/jackmichalak/phishim)
+    - desc: Easy red team phishing with Puppeteer
+    - tags: phish
+- [Octoberfest7/Inline-Execute-PE](https://github.com/Octoberfest7/Inline-Execute-PE)
+    - desc: Execute unmanaged Windows executables in CobaltStrike Beacons
+    - tags: c2, redteam
+- [Aetsu/OffensivePipeline](https://github.com/Aetsu/OffensivePipeline)
+    - desc: OfensivePipeline allows you to download and build C# tools, applying certain modifications in order to improve their evasion for Red Team exercises.
+    - tags: malwaredev, utility
+- [mgeeky/ProtectMyTooling](https://github.com/mgeeky/ProtectMyTooling)
+    - desc: Multi-Packer wrapper letting us daisy-chain various packers, obfuscators and other Red Team oriented weaponry. Featured with artifacts watermarking, IOCs collection & PE Backdooring. You feed it with your implant, it does a lot of sneaky things and spits out obfuscated executable.
+    - tags: malwaredev, utility
+- [SygniaLabs/ScallOps](https://github.com/SygniaLabs/ScallOps)
+    - desc: infra / payload automation
+    - tags: malwaredev, utility
+- [Anof-cyber/PyCript](https://github.com/Anof-cyber/PyCript)
+    - desc: Burp Suite extension that allows for bypassing client-side encryption using custom logic for manual and automation testing with Python and NodeJS. It enables efficient testing of encryption methods and identification of vulnerabilities in the encryption process.
+    - tags: web, utility
+- [xforcered/SQLRecon](https://github.com/xforcered/SQLRecon)
+    - desc: A C# MS SQL toolkit designed for offensive reconnaissance and post-exploitation.
+    - tags: windows, redteam
+- [google/gcp_scanner](https://github.com/google/gcp_scanner)
+    - desc: gcp recon tool
+    - tags: recon, cloud
+- [AutomoxSecurity/iShelly](https://github.com/AutomoxSecurity/iShelly)
+    - desc: A tool to generate macOS initial access vectors using Prelude Operator payloads
+    - tags: macos, redteam, phish
+- [yrutschle/sslh](https://github.com/yrutschle/sslh)
+    - desc: Applicative Protocol Multiplexer (e.g. share SSH and HTTPS on the same port)
+    - tags: utility
+- [ariary/Dogwalk-rce-poc](https://github.com/ariary/Dogwalk-rce-poc)
+    - desc: 🐾Dogwalk PoC (using diagcab file to obtain RCE on windows)
+    - tags: phish, windows, redteam
+- [fr0gger/Unprotect_Submission](https://github.com/fr0gger/Unprotect_Submission)
+    - desc: Repository to publish your evasion techniques and contribute to the project
+    - tags: malwaredev
+- [optiv/Mangle](https://github.com/optiv/Mangle)
+    - desc: Mangle is a tool that manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
+    - tags: malwaredev
+- [Azure/aztfy](https://github.com/Azure/aztfy)
+    - desc: A tool to bring existing Azure resources under Terraform's management
+    - tags: utility, cloud
