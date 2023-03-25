@@ -1,0 +1,86 @@
+## Issue 043 - Mar 2023
+
+### writeups
+- [Evicting the Adversary](https://www.huntress.com/blog/evicting-the-adversary)
+    - desc: Evicting the Adversary
+    - tags: redteam
+- [UNORTHODOX LATERAL MOVEMENT:STEPPING AWAY FROM STANDARD TRADECRAFT - F-Secure](https://raw.githubusercontent.com/RiccardoAncarani/talks/master/F-Secure/unorthodox-lateral-movement.pdf)
+    - desc: lateral movement research
+    - tags: redteam, windows
+- [Obfuscating Rubeus using Codecepticon - pavel](https://www.pavel.gr/blog/obfuscating-rubeus-using-codecepticon)
+    - desc: Obfuscating Rubeus using Codecepticon
+    - tags: redteam, malwaredev
+- [Attacking .NET Web Services – Securifera](https://www.securifera.com/blog/2023/03/06/attacking-net-web-services/)
+    - desc: Attacking .NET Web Services – Securifera
+    - tags: web, exploit
+- [Having fun with KeePass2: DLL Hijacking and hooking APIs | Cyberdough](https://skr1x.github.io/keepass-dll-hijacking/)
+    - desc: Having fun with KeePass2: DLL Hijacking and hooking APIs | Cyberdough
+    - tags: redteam
+- [Defining the Cobalt Strike Reflective Loader - boku](https://securityintelligence.com/posts/defining-cobalt-strike-reflective-loader/)
+    - desc: Defining the Cobalt Strike Reflective Loader
+    - tags: malwaredev
+- [Persistence Techniques That Persist](https://www.cyberark.com/resources/threat-research-blog/persistence-techniques-that-persist)
+    - desc: Persistence Techniques That Persist
+    - tags: redteam, c2
+- [Attacking With WebView2 Applications | mr.d0x](https://mrd0x.com/attacking-with-webview2-applications/)
+    - desc: Attacking With WebView2 Applications | mr.d0x
+    - tags: redteam
+- [Sean Pesce's Blog: Leveraging ssh-keygen for Arbitrary Execution (and Privilege Escalation)](https://seanpesce.blogspot.com/2023/03/leveraging-ssh-keygen-for-arbitrary.html)
+    - desc: Sean Pesce's Blog: Leveraging ssh-keygen for Arbitrary Execution (and Privilege Escalation)
+    - tags: privesc, redteam
+- [Microsoft 365 enumeration, spraying and exfiltration - TeamFiltration in the spotlight - Guillaume B.’s Notebook](https://guillaumeben.xyz/Microsoft-365-enumeration/)
+    - desc: Microsoft 365 enumeration, spraying and exfiltration - TeamFiltration in the spotlight - Guillaume B.’s Notebook
+    - tags: windows, redteam, recon
+- [eXploit – External Trusts Are Evil](https://exploit.ph/external-trusts-are-evil.html)
+    - desc: eXploit – External Trusts Are Evil
+    - tags: windows, redteam
+- [Navigating the Vast Ocean of Sandbox Evasions](https://unit42.paloaltonetworks.com/sandbox-evasion-memory-detection/)
+    - desc: Navigating the Vast Ocean of Sandbox Evasions
+    - tags: malwaredev
+- [pre.empt.dev: An Introduction](https://pre.empt.dev/posts/maelstrom-an-introduction/)
+    - desc: pre.empt.dev: An Introduction
+    - tags: windows, redteam, malwaredev
+- [Discovering Domains via a Time-Correlation Attack on Certificate Transparency – PT SWARM](https://swarm.ptsecurity.com/discovering-domains-via-a-time-correlation-attack/)
+    - desc: Discovering Domains via a Time-Correlation Attack on Certificate Transparency – PT SWARM
+    - tags: recon, web, osint
+- [Relaying NTLM Authentication from SCCM Clients](https://posts.specterops.io/relaying-ntlm-authentication-from-sccm-clients-7dccb8f92867)
+    - desc: Relaying NTLM Authentication from SCCM Clients
+    - tags: windows, redteam
+
+### tools
+- [blacklanternsecurity/badsecrets](https://github.com/blacklanternsecurity/badsecrets)
+    - desc: A library for detecting known secrets across many web frameworks
+    - tags: utility
+- [nettitude/Aladdin](https://github.com/nettitude/Aladdin/)
+    - desc: deseriallization of a .NET payload and execution in memory
+    - tags: redteam, malwaredev
+- [praetorian-inc/fingerprintx](https://github.com/praetorian-inc/fingerprintx)
+    - desc: Standalone utility for service discovery on open ports!
+    - tags: recon, redteam
+- [itm4n/PPLmedic](https://github.com/itm4n/PPLmedic)
+    - desc: Dump the memory of any PPL with a Userland exploit chain
+    - tags: windows, redteam, postex
+- [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit)
+    - desc: This repository contains cutting-edge open-source security tools (OST) for a red teamer and threat hunter.
+    - tags: utility, framework
+- [Mr-Un1k0d3r/Elevate-System-Trusted-BOF](https://github.com/Mr-Un1k0d3r/Elevate-System-Trusted-BOF)
+    - desc: privilege escalation poc bof
+    - tags: c2, redteam
+- [mertdas/PrivKit](https://github.com/mertdas/PrivKit)
+    - desc: PrivKit is a simple beacon object file that detects privilege escalation vulnerabilities caused by misconfigurations on Windows OS.
+    - tags: c2, redteam
+- [ZeroMemoryEx/Amsi-Killer](https://github.com/ZeroMemoryEx/Amsi-Killer)
+    - desc: Lifetime AMSI bypass
+    - tags: redteam, c2
+- [GitGuardian/ggshield](https://github.com/GitGuardian/ggshield)
+    - desc: Find and fix 360+ types of hardcoded secrets and 70+ types of infrastructure-as-code misconfigurations.
+    - tags: web, recon, redteam, utility
+- [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy)
+    - desc: Virtualize macOS 12 and later on Apple Silicon
+    - tags: utility
+- [nheiniger/SnaffPoint](https://github.com/nheiniger/SnaffPoint)
+    - desc: A tool for pointesters to find candies in SharePoint
+    - tags: redteam, utility
+- [Wra7h/FlavorTown](https://github.com/Wra7h/FlavorTown)
+    - desc: Various ways to execute shellcode
+    - tags: malwaredev
