@@ -1,0 +1,104 @@
+## Issue 044 - Apr 2023
+
+### writeups
+- [LocalPotato - When Swapping The Context Leads You To SYSTEM](https://www.localpotato.com/localpotato_html/LocalPotato.html)
+    - desc: potato privesc research
+    - tags: windows, privesc
+- [socgolish and beyond - proofpoint](https://www.proofpoint.com/us/blog/threat-insight/ta569-socgholish-and-beyond)
+    - desc: socgolish research - dynamic payload / environment keying
+    - tags: malwaredev
+- [A Novel Method for Bypassing ETW | shellz.club](https://shellz.club/posts/a-novel-method-for-bypass-ETW/)
+    - desc: A Novel Method for Bypassing ETW | shellz.club
+    - tags: maldev
+- [BingBang: AAD misconfiguration led to Bing.com results manipulation and account takeover | Wiz Blog](https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration)
+    - desc: BingBang: AAD misconfiguration led to Bing.com results manipulation and account takeover | Wiz Blog
+    - tags: cloud
+- [Riding the Azure Service Bus (Relay) into Power Platform | Cloud Pentesting](https://www.netspi.com/blog/technical/vulnerability-research/azure-service-bus-power-platform/)
+    - desc: Riding the Azure Service Bus (Relay) into Power Platform | Cloud Pentesting
+    - tags: cloud
+- [Attacking Visual Studio for Initial Access - OutFlank](https://outflank.nl/blog/2023/03/28/attacking-visual-studio-for-initial-access/)
+    - desc: Attacking Visual Studio for Initial Access
+    - tags: phish
+- [Get Your SOCKS on with gTunnel. tl;dr: Steps to setup a wicked fast… | by Elliott Grey | Posts By SpecterOps Team Members](https://posts.specterops.io/get-your-socks-on-with-gtunnel-4a70a9b82b24)
+    - desc: Get Your SOCKS on with gTunnel. tl;dr: Steps to setup a wicked fast… | by Elliott Grey | Posts By SpecterOps Team Members
+    - tags: utility
+- [SensePost |   Attacking smart cards in active directory](https://sensepost.com/blog/2020/attacking-smart-cards-in-active-directory/)
+    - desc: SensePost |   Attacking smart cards in active directory
+    - tags: windows, redteam
+- [Turning Google smart speakers into wiretaps for $100k](https://downrightnifty.me/blog/2022/12/26/hacking-google-home.html)
+    - desc: Turning Google smart speakers into wiretaps for $100k 
+    - tags: writeup
+- [DallasFR/WalkerGate](https://github.com/DallasFR/WalkerGate)
+    - desc: Find syscall
+    - tags: maldev
+- [Maldev-Academy/HellHall](https://github.com/Maldev-Academy/HellHall)
+    - desc: Performing Indirect Clean Syscalls
+    - tags: maldev
+- [TTPs: JmpNoCall - 0xTriboulet](https://steve-s.gitbook.io/0xtriboulet/ttps/ttps-jmpnocall)
+    - desc: TTPs: JmpNoCall - 0xTriboulet
+    - tags: maldev
+- [15 Ways to Bypass the PowerShell Execution Policy](https://www.netspi.com/blog/technical/network-penetration-testing/15-ways-to-bypass-the-powershell-execution-policy/)
+    - desc: 15 Ways to Bypass the PowerShell Execution Policy
+    - tags: windows, redteam
+- [From on-prem to Global Admin without password reset - Cloudbrothers](https://cloudbrothers.info/en/prem-global-admin-password-reset/)
+    - desc: From on-prem to Global Admin without password reset - Cloudbrothers
+    - tags: redteam, cloud
+
+### tools
+- [trustedsec/orpheus](https://github.com/trustedsec/orpheus)
+    - desc: opsec oriented kerberoast
+    - tags: redteam, windows
+- [login-securite/DonPAPI](https://github.com/login-securite/DonPAPI)
+    - desc: Dumping DPAPI creds remotely
+    - tags: windows, redteam
+- [Maldev-Academy/EntropyReducer](https://github.com/Maldev-Academy/EntropyReducer)
+    - desc: Reduce Entropy And Obfuscate Youre Payload With Serialized Linked Lists
+    - tags: maldev
+- [edoardottt/cariddi](https://github.com/edoardottt/cariddi)
+    - desc: Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more
+    - tags: web
+- [r4wd3r/Suborner](https://github.com/r4wd3r/Suborner)
+    - desc: Create an invisible machine account with administrative privileges
+    - tags: windows, exploit, redteam
+- [kyleavery/AceLdr](https://github.com/kyleavery/AceLdr)
+    - desc: Cobalt Strike UDRL for memory scanner evasion.
+    - tags: maldev
+- [antman1p/freyja](https://github.com/antman1p/freyja)
+    - desc: Golang, Purple Team agent
+    - tags: purpleteam
+- [mxrch/gitfive](https://github.com/mxrch/gitfive)
+    - desc: 🐙 Track down GitHub users.
+    - tags: osint
+- [MarkoH17/Spray365](https://github.com/MarkoH17/Spray365)
+    - desc: Spray365 makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach. The built-in execution plan features options that attempt to bypass Azure Smart Lockout and insecure conditional access policies.
+    - tags: initaccess, spray, cloud
+- [knight0x07/Lnk2Vbs](https://github.com/knight0x07/Lnk2Vbs)
+    - desc: A Python script that embeds Target VBS into LNK and when executed runs the VBS script from within.
+    - tags: maldev, phish
+- [praetorian-inc/noseyparker](https://github.com/praetorian-inc/noseyparker)
+    - desc: Nosey Parker is a command-line program that finds secrets and sensitive information in textual data and Git history.
+    - tags: utility
+- [knavesec/CredMaster](https://github.com/knavesec/CredMaster)
+    - desc: Refactored & improved CredKing password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling
+    - tags: spray, cloud
+- [rkbennett/pybof](https://github.com/rkbennett/pybof)
+    - desc: Python module for running BOFs
+    - tags: c2, redteam
+- [garrettfoster13/pre2k](https://github.com/garrettfoster13/pre2k)
+    - desc: query for the existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain
+    - tags: windows, exploit
+- [0xdea/tactical-exploitation](https://github.com/0xdea/tactical-exploitation)
+    - desc: Modern tactical exploitation toolkit.
+    - tags: framework, windows, exploit, redteam
+- [CCob/ThreadlessInject](https://github.com/CCob/ThreadlessInject)
+    - desc: Threadless Process Injection using remote function hooking.
+    - tags: maldev
+- [eversinc33/BouncyGate](https://github.com/eversinc33/BouncyGate)
+    - desc: HellsGate in Nim, but making sure that all syscalls go through NTDLL.DLL (as in RecycledGate).
+    - tags: maldev
+- [rust-lang/rustlings](https://github.com/rust-lang/rustlings)
+    - desc: 🦀 Small exercises to get you used to reading and writing Rust code!
+    - tags: utility
+- [NUL0x4C/AtomLdr](https://github.com/NUL0x4C/AtomLdr)
+    - desc: A DLL loader with advanced evasive features
+    - tags: maldev
