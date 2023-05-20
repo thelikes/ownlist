@@ -1,0 +1,83 @@
+## Issue 045 - Apr 2023
+
+### writeups
+- [Abusing windows’ tokens to compromise active directory without touching lsass - SensePost](https://sensepost.com/blog/2022/abusing-windows-tokens-to-compromise-active-directory-without-touching-lsass/)
+    - desc: Abusing windows’ tokens to compromise active directory without touching lsass
+    - tags: redteam, windows
+- [Emulating IoT Firmware Made Easy: Start Hacking Without the Physical Device](https://boschko.ca/qemu-emulating-firmware/)
+    - desc: Emulating IoT Firmware Made Easy: Start Hacking Without the Physical Device
+    - tags: utils
+- [Remote LD_PRELOAD Exploitation](https://www.elttam.com/blog/goahead/)
+    - desc: Remote LD_PRELOAD Exploitation
+    - tags: linux, redteam
+- [mastodon](https://vanmieghem.io/process-injection-evading-edr-in-2023/)
+    - desc: edr evasion research
+    - tags: maldev
+- [Detecting and decrypting Sliver C2 – a threat hunter's guide - Immersive Labs](https://www.immersivelabs.com/blog/detecting-and-decrypting-sliver-c2-a-threat-hunters-guide/)
+    - desc: Detecting and decrypting Sliver C2 – a threat hunter's guide - Immersive Labs
+    - tags: blueteam, c2
+- [Building a Fast One-Shot Recon Script for Bug Bounty](https://blog.projectdiscovery.io/building-one-shot-recon/)
+    - desc: Building a Fast One-Shot Recon Script for Bug Bounty
+    - tags: recon, web
+- [Meterpreter vs Modern EDR(s) - RedOps - English](https://redops.at/en/blog/meterpreter-vs-modern-edrs-in-2023)
+    - desc: Meterpreter vs Modern EDR(s) - RedOps - English
+    - tags: maldev
+- [Obfuscating C2 Traffic with Google Cloud Functions](https://fortynorthsecurity.com/blog/obfuscating-c2-traffic-with-google-cloud-functions/)
+    - desc: Obfuscating C2 Traffic with Google Cloud Functions
+    - tags: c2
+- [Privilege escalation in AWS Elastic Kubernetes Service](https://blog.calif.io/p/privilege-escalation-in-eks)
+    - desc: Kubernetes privileges escalation in EKS by abusing pods
+    - tags: cloud
+- [Shellcode: Entropy Reduction With Base32 Encoding. | modexp](https://modexp.wordpress.com/2023/04/07/shellcode-entropy-reduction-with-base-n-encoding/)
+    - desc: Shellcode: Entropy Reduction With Base32 Encoding. | modexp
+    - tags: maldev
+- [Writing your own RDI /sRDI loader using C and ASM](https://blog.malicious.group/writing-your-own-rdi-srdi-loader-using-c-and-asm/)
+    - desc: Writing your own RDI /sRDI loader using C and ASM
+    - tags: maldev
+- [Reading DPAPI Encrypted Keys with MimiKatz](https://www.coresecurity.com/core-labs/articles/reading-dpapi-encrypted-keys-mimikatz)
+    - desc: DPAPI+Mimikatz research
+    - tags: windows, redteam
+- [Randomizing API Hashes to Evade Cobalt Strike Shellcode Detection - huntress](https://www.huntress.com/blog/hackers-no-hashing-randomizing-api-hashes-to-evade-cobalt-strike-shellcode-detection)
+    - desc: Evasion with Cobalt Strike research
+    - tags: c2, maldev
+- [Shellcodes are dead, long live Fileless Shellcodes | by kleiton0x7e | InfoSec Write-ups](https://infosecwriteups.com/shellcodes-are-dead-long-live-fileless-shellcodes-609cbacd5cb0)
+    - desc: Shellcodes are dead, long live Fileless Shellcodes | by kleiton0x7e | InfoSec Write-ups
+    - tags: maldev
+- [In-Memory Disassembly for EDR/AV Unhooking | Advanced Offensive Cybersecurity Training](https://www.signal-labs.com/blog/analysis-of-edr-hooks-bypasses-amp-our-rust-sample)
+    - desc: In-Memory Disassembly for EDR/AV Unhooking | Advanced Offensive Cybersecurity Training
+    - tags: maldev
+- [50 Methods For Lsass Dump(RTC0002) | RedTeamRecipe](https://redteamrecipe.com/50-Methods-For-Dump-LSASS/)
+    - desc: 50 Methods For Lsass Dump(RTC0002) | RedTeamRecipe
+    - tags: windows, postex
+- [Privilege Escalation and Lateral Movement on Azure - Part 2](https://www.xmcyber.com/blog/privilege-escalation-and-lateral-movement-on-azure-part-2/)
+    - desc: Privilege Escalation and Lateral Movement on Azure - Part 2
+    - tags: cloud
+- [Direct Syscalls: A journey from high to low - RedOps](https://redops.at/en/blog/direct-syscalls-a-journey-from-high-to-low)
+    - desc: Direct Syscalls: A journey from high to low - RedOps - English
+    - tags: maldev
+- [GCP Pentesting Guide – slash parity](https://slashparity.com/?p=938)
+    - desc: GCP Pentesting Guide – slash parity
+    - tags: cloud
+- [Harnessing the Power of AI in AWS Pentesting.pdf](https://www.slideshare.net/MichaelFelch/harnessing-the-power-of-ai-in-aws-pentestingpdf)
+    - desc: Harnessing the Power of AI in AWS Pentesting.pdf
+    - tags: cloud
+
+### tools
+- [Tw1sm/badger-builder](https://github.com/Tw1sm/badger-builder)
+    - desc: badger-builder is an AI-assisted tool for generating dynamic Brute Ratel C4 profiles
+    - tags: c2
+- [thefLink/Hunt-Weird-Syscalls](https://github.com/thefLink/Hunt-Weird-Syscalls)
+    - desc: ETW based POC to identify direct and indirect syscalls
+    - tags: maldev
+- [Rnalter/ThunderCloud](https://github.com/Rnalter/ThunderCloud)
+    - desc: Cloud Exploit Framework
+    - tags: cloud
+- [abdallah-elsharif/hellMaker](https://github.com/abdallah-elsharif/hellMaker)
+    - desc: Generate FUD backdoors
+    - tags: maldev
+- [naksyn/Pyramid](https://github.com/naksyn/Pyramid)
+    - desc: a tool to help operate in EDRs' blind spots
+    - tags: windows, postex
+- [xct/SeRestoreAbuse](https://github.com/xct/SeRestoreAbuse)
+    - desc: SeRestorePrivilege to SYSTEM
+    - tags: windows, privesc
