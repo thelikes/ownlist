@@ -1,0 +1,71 @@
+## Issue 047 - Oct 2023
+
+### writeups
+- [How to Rob a Bank – DMCXBLUE](https://dmcxblue.net/2023/09/19/how-to-rob-a-bank/)
+    - desc: How to Rob a Bank – DMCXBLUE
+    - tags: redteam
+- [BlacMass Vol2](https://samples.vx-underground.org/root/Papers/Other/VXUG%20Zines/2023-09-19%20-%20Black%20Mass%20Volume%20II.pdf)
+    - desc: VXUNDERGROUND VOL 2
+    - tags: maldev
+- [Creating Fully Undetectable JavaScript Payloads to Evade Next-Generation Firewalls | Elliot on Security](https://elliotonsecurity.com/creating-fully-undetectable-javscript-payloads-to-evade-next-generation-firewalls/)
+    - desc: Creating Fully Undetectable JavaScript Payloads to Evade Next-Generation Firewalls | Elliot on Security
+    - tags: maldev
+- [Living Off the Foreign Land - Part 1/3: Setup Linux VM for SOCKS routing « BITSADMIN Blog - Mystery guest in your IT infrastructure](https://blog.bitsadmin.com/living-off-the-foreign-land-windows-as-offensive-platform)
+    - desc: Living Off the Foreign Land - Part 1/3: Setup Linux VM for SOCKS routing « BITSADMIN Blog - Mystery guest in your IT infrastructure
+    - tags: redteam, util
+- [#NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct](https://www.deepinstinct.com/blog/nofilter-abusing-windows-filtering-platform-for-privilege-escalation)
+    - desc: #NoFilter - Abusing Windows Filtering Platform for Privilege Escalation | Deep Instinct
+    - tags: windows, redteam, privesc
+- [Understanding Syscalls: Direct, Indirect, and Cobalt Strike Implementation - d01a](https://d01a.github.io/syscalls/)
+    - desc: Understanding Syscalls: Direct, Indirect, and Cobalt Strike Implementation - d01a
+    - tags: maldev
+- [Methods to Backdoor an AWS Account | Mystic0x1](https://mystic0x1.github.io/posts/methods-to-backdoor-an-aws-account/)
+    - desc: Methods to Backdoor an AWS Account | Mystic0x1
+    - tags: cloud
+- [A Deep Dive into Penetration Testing of macOS Applications (Part 2)](https://www.cyberark.com/resources/threat-research-blog/a-deep-dive-into-penetration-testing-of-macos-applications-part-2)
+    - desc: A Deep Dive into Penetration Testing of macOS Applications (Part 2)
+    - tags: mac, redteam
+- [25 Methods for Pipeline Attacks(RTC0011) | RedTeamRecipe](https://redteamrecipe.com/25-Method-For-Pipeline-Attacks/)
+    - desc: 25 Methods for Pipeline Attacks(RTC0011) | RedTeamRecipe
+    - tags: cloud, redteam
+- [Attacking an EDR - Part 1](https://riccardoancarani.github.io/2023-08-03-attacking-an-edr-part-1/)
+    - desc: Attacking an EDR - Part 1
+    - tags: maldev
+- [PNG Steganography from First Principles - XPN InfoSec Blog](https://blog.xpnsec.com/png-steganography/)
+    - desc: PNG Steganography from First Principles - XPN InfoSec Blog
+    - tags: maldev
+- [The GitHub Actions Worm: Compromising GitHub Repositories Through the Actions Dependency Tree](https://www.paloaltonetworks.com/blog/prisma-cloud/github-actions-worm-dependencies/)
+    - desc: The GitHub Actions Worm: Compromising GitHub Repositories Through the Actions Dependency Tree
+    - tags: cloud, devops
+- [Redshift Security: Attack Surface Explained](https://www.dig.security/post/redshift-security-attack-surface-explained)
+    - desc: Redshift Security: Attack Surface Explained
+    - tags: redteam, cloud
+- [Phishing the anti-phishers: Exploiting anti-phishing tools for internal access — Ophion Security](https://ophionsecurity.com/blog/phishing-the-anti-phishers)
+    - desc: Phishing the anti-phishers: Exploiting anti-phishing tools for internal access — Ophion Security
+    - tags: phish, redteam
+- [Unraveling the Illusion of Trust: The Innovative Attack Methodology Leveraging the "search-ms" URI Protocol Handler ](https://www.trellix.com/en-us/about/newsroom/stories/research/beyond-file-search-a-novel-method.html)
+    - desc: Unraveling the Illusion of Trust: The Innovative Attack Methodology Leveraging the "search-ms" URI Protocol Handler 
+    - tags: redteam, phish, windows
+
+### tools
+- [0xthirteen/AssemblyHunter](https://github.com/0xthirteen/AssemblyHunter)
+    - desc: ClickOnce Abuse for Trusted Code
+    - tags: redteam, windows
+- [nyxgeek/teamstracker](https://github.com/nyxgeek/teamstracker)
+    - desc: using graph proxy to monitor teams user presence
+    - tags: redteam, windows
+- [dwisiswant0/ipfuscator](https://github.com/dwisiswant0/ipfuscator)
+    - desc: A blazing-fast, thread-safe, straightforward and zero memory allocations tool to swiftly generate alternative IP(v4) address representations in Go.
+    - tags: utils, web
+- [ShorSec/DllNotificationInjection](https://github.com/ShorSec/DllNotificationInjection)
+    - desc: A POC of a new “threadless” process injection technique that works by utilizing the concept of DLL Notification Callbacks in local and remote processes.
+    - tags: maldev
+- [pushsecurity/saas-attacks](https://github.com/pushsecurity/saas-attacks)
+    - desc: Offensive security drives defensive security. We're sharing a collection of SaaS attack techniques to help defenders understand the threats they face. #nolockdown
+    - tags: cloud, redteam
+- [EvanMcBroom/fuse-loader](https://github.com/EvanMcBroom/fuse-loader)
+    - desc: Load a dynamic library from memory using a fuse mount
+    - tags: maldev
+- [FoxIO-LLC/ja4](https://github.com/FoxIO-LLC/ja4/)
+    - desc: JA4+ is a suite of network fingerprinting standards
+    - tags: util, blueteam
