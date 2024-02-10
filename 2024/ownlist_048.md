@@ -1,0 +1,92 @@
+## Issue 049 - Feb 2024
+
+### writeups
+- [Creating an OPSEC safe loader for Red Team Operations - LRQA Nettitude Labs](https://labs.nettitude.com/blog/creating-an-opsec-safe-loader-for-red-team-operations/)
+    - desc: Creating an OPSEC safe loader for Red Team Operations - LRQA Nettitude Labs
+    - tags: mal
+- [Making Okta do keylogging for you](https://pushsecurity.com/blog/oktajacking/)
+    - desc: Making Okta do keylogging for you
+    - tags: redteam, phish
+- [Evilginx, meet BITB – Rasta Mouse](https://rastamouse.me/evilginx-meet-bitb/)
+    - desc: Evilginx, meet BITB – Rasta Mouse
+    - tags: redteam, phish
+- [Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24](https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/#h-new-anti-sandbox-technique-using-trigonometry-to-detect-human-behavior)
+    - desc: Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24
+    - tags: maldev, redteam
+- [ ](https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/)
+    - desc: "search-ms" URI Protocol Handler initial access research
+    - tags: phish
+- [Phishing through Slack for initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
+    - desc: Phishing through Slack for initial access
+    - tags: phish
+- [ZipLink - Combine Zips and Lnk for fun and profit | BadOption.eu](https://badoption.eu/blog/2023/09/28/ZipLink.html)
+    - desc: ZipLink - Combine Zips and Lnk for fun and profit | BadOption.eu
+    - tags: phish
+- [Abusing LNK "Features" for Initial Access and Persistence ](https://v3ded.github.io/redteam/abusing-lnk-features-for-initial-access-and-persistence)
+    - desc: Abusing LNK "Features" for Initial Access and Persistence
+    - tags: phish
+- [Cloud Threat Landscape](https://threats.wiz.io/)
+    - desc: Cloud Threat Landscape
+    - tags: cloud
+- [A christmas tale: pwning GTB Central Console (CVE-2024-22107 & CVE-2024-22108)](https://adepts.of0x.cc/gtbcc-pwned/)
+    - desc: DLP software called “GTB” exploit research
+    - tags: writeup
+- [Talkback](https://talkback.sh/)
+    - desc: Talkback
+    - tags: utils
+- [A short note on AWS KEY ID. As I was playing with AWS… | by Tal Be'ery | Medium](https://medium.com/@TalBeerySec/a-short-note-on-aws-key-id-f88cc4317489)
+    - desc: A short note on AWS KEY ID. As I was playing with AWS… | by Tal Be'ery | Medium
+    - tags: cloud
+- [Device Code Phishing – Add Your Own Sign-In Methods on Entra ID – Compass Security Blog](https://blog.compass-security.com/2024/01/device-code-phishing-add-your-own-sign-in-methods-on-entra-id/)
+    - desc: Device Code Phishing – Add Your Own Sign-In Methods on Entra ID – Compass Security Blog
+    - tags: cloud, azure
+- [A Practical Guide to PrintNightmare in 2024 | itm4n's blog](https://itm4n.github.io/printnightmare-exploitation/)
+    - desc: A Practical Guide to PrintNightmare in 2024 | itm4n's blog
+    - tags: windows, redteam, exploit, privesc
+- [Trusted Domain, Hidden Danger: Deceptive URL Redirections in Email Phishing Attacks](https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/trusted-domain-hidden-danger-deceptive-url-redirections-in-email-phishing-attacks/)
+    - desc: Trusted Domain, Hidden Danger: Deceptive URL Redirections in Email Phishing Attacks
+    - tags: phish, redteam
+- [ADCS Attack Paths in BloodHound — Part 1 - SpecterOps](https://specterops.io/blog/2024/01/24/adcs-attack-paths-in-bloodhound-part-1/)
+    - desc: ADCS Attack Paths in BloodHound — Part 1 - SpecterOps
+    - tags: windows, redteam
+- [Pawn Storm Uses Brute Force and Stealth Against High-Value Targets ](https://www.trendmicro.com/en_us/research/24/a/pawn-storm-uses-brute-force-and-stealth.html)
+    - desc: Pawn Storm Uses Brute Force and Stealth Against High-Value Targets
+    - tags: windows, redtream
+    
+### tools
+- [zblurx/certsync](https://github.com/zblurx/certsync)
+    - desc: Dump NTDS with golden certificates and UnPAC the hash
+    - tags: windows
+- [AlmondOffSec/PassTheCert](https://github.com/AlmondOffSec/PassTheCert)
+    - desc: Proof-of-Concept tool to authenticate to an LDAP/S server with a certificate through Schannel
+    - tags: windows
+- [netero1010/EDRSilencer](https://github.com/netero1010/EDRSilencer)
+    - desc: A tool uses Windows Filtering Platform (WFP) to block Endpoint Detection and Response (EDR) agents from reporting security events to the server.
+    - tags: windows
+- [TheCyb3rAlpha/BobTheSmuggler](https://github.com/TheCyb3rAlpha/BobTheSmuggler)
+    - desc: "Bob the Smuggler": A tool that leverages HTML Smuggling Attack and allows you to create HTML files with embedded 7z/zip archive.
+    - tags: maldev
+- [unknownhad/CloudIntel](https://github.com/unknownhad/CloudIntel)
+    - desc: This repo contains IOC, malware and malware analysis associated with Public cloud
+    - tags: cloud, malware
+- [Mr-Un1k0d3r/.NetConfigLoader](https://github.com/Mr-Un1k0d3r/.NetConfigLoader)
+    - desc: .net config loader
+    - tags: malware
+- [The-Z-Labs/bof-launcher](https://github.com/The-Z-Labs/bof-launcher)
+    - desc: Beacon Object File (BOF) launcher - library for executing BOF files in C/C++/Zig applications
+    - tags: c2
+- [jacob-baines/concealed_position](https://github.com/jacob-baines/concealed_position)
+    - desc: Bring your own print driver privilege escalation tool
+    - tags: windows, exploit, maldev
+- [Krook9d/PurpleLab](https://github.com/Krook9d/PurpleLab)
+    - desc: PurpleLab is an efficient and readily deployable lab solution
+    - tags: redteam, util
+- [h4wkst3r/ADOKit](https://github.com/h4wkst3r/ADOKit)
+    - desc: Azure DevOps Services Attack Toolkit
+    - tags: cloud
+- [narfindustries/http-garden](https://github.com/narfindustries/http-garden)
+    - desc: Differential testing and fuzzing of HTTP servers and proxies
+    - tags: web, exploit
+- [FalconForceTeam/SOAPHound](https://github.com/FalconForceTeam/SOAPHound)
+    - desc: SOAPHound is a custom-developed .NET data collector tool which can be used to enumerate Active Directory environments via the Active Directory Web Services (ADWS) protocol.
+    - tags: windows, redteam
