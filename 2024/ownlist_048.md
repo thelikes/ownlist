@@ -13,7 +13,7 @@
 - [Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24](https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/#h-new-anti-sandbox-technique-using-trigonometry-to-detect-human-behavior)
     - desc: Unveiling LummaC2 stealer’s novel Anti-Sandbox technique: Leveraging trigonometry for human behavior detection - Outpost24
     - tags: maldev, redteam
-- [ ](https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/)
+- [Beyond File Search: A Novel Method for Exploiting the "search-ms" URI Protocol Handler](https://www.trellix.com/about/newsroom/stories/research/beyond-file-search-a-novel-method/)
     - desc: "search-ms" URI Protocol Handler initial access research
     - tags: phish
 - [Phishing through Slack for initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
