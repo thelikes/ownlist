@@ -1,0 +1,95 @@
+## Issue 050 - Feb 2024
+
+### writeups
+- [How to protect Evilginx using Cloudflare and HTML Obfuscation](https://www.jackphilipbutton.com/post/how-to-protect-evilginx-using-cloudflare-and-html-obfuscation)
+    - desc: How to protect Evilginx using Cloudflare and HTML Obfuscation
+    - tags: phish, redteam
+- [Okta for Red Teamers — Perimeter Edition | by Nick VanGilder | nickvangilder | Medium](https://medium.com/nickvangilder/okta-for-red-teamers-perimeter-edition-c60cb8d53f23)
+    - desc: Okta for Red Teamers — Perimeter Edition | by Nick VanGilder | nickvangilder | Medium
+    - tags: phish, redteam
+- [Google OAuth is Broken (Sort Of) ◆ Truffle Security Co.](https://trufflesecurity.com/blog/google-oauth-is-broken-sort-of)
+    - desc: Google OAuth is Broken (Sort Of) ◆ Truffle Security Co.
+    - tags: web, exploit, phish
+- [Phishing the anti-phishers: Exploiting anti-phishing tools for internal access](https://ophionsecurity.com/blog/phishing-the-anti-phishers)
+    - desc: abusing email scanners with automated confirmation email links
+    - tags: redteam
+- [Phishing through Slack for initial access](https://pushsecurity.com/blog/slack-phishing-for-initial-access/)
+    - desc: Phishing through Slack for initial access
+    - tags: phish, redteam
+- [Unmanaged .NET Patching - outflank](https://www.outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching/)
+    - desc: unmanaged patching of managed code (fighting exit during inline exec)
+    - tags: maldev
+- [Havoc C2 with AV/EDR Bypass Methods in 2024 (Part 1) | by Sam Rothlisberger | Jan, 2024 | Medium](https://medium.com/@sam.rothlisberger/havoc-c2-with-av-edr-bypass-methods-in-2024-part-1-733d423fc67b)
+    - desc: Havoc C2 with AV/EDR Bypass Methods in 2024 (Part 1) | by Sam Rothlisberger | Jan, 2024 | Medium
+    - tags: maldev
+- [How to perform a Complete Process Hollowing - Red Team SNCF](https://red-team-sncf.github.io/complete-process-hollowing.html)
+    - desc: How to perform a Complete Process Hollowing - Red Team SNCF
+    - tags: maldev
+- [Pentesting Azure: RECON Techniques – Security Café](https://securitycafe.ro/2022/04/29/pentesting-azure-recon-techniques/)
+    - desc: Pentesting Azure: RECON Techniques – Security Café
+    - tags: cloud
+- [Installing WinDbg](https://augmend.com/replay/886e1f26-ce6f-4805-9c24-a027d46a7c68)
+    - desc: Installing WinDbg
+    - tags: utils, re
+- [Shadow Credentials: Workstation Takeover Edition](https://www.fortalicesolutions.com/posts/shadow-credentials-workstation-takeover-edition)
+    - desc: Shadow Credentials: Workstation Takeover Edition
+    - tags: windows, privesc
+- [Active Directory Enumeration for Red Teams - MDSec](https://www.mdsec.co.uk/2024/02/active-directory-enumeration-for-red-teams/)
+    - desc: Active Directory Enumeration for Red Teams - MDSec
+    - tags: redteam, opsec
+- [Azure AD Pass The Certificate. Intro | by Mor | Medium](https://medium.com/@mor2464/azure-ad-pass-the-certificate-d0c5de624597)
+    - desc: Azure AD Pass The Certificate. Intro | by Mor | Medium
+    - tags: cloud
+- [How to set up Evilginx to phish Office 365 credentials - JanBakker.tech](https://janbakker.tech/how-to-set-up-evilginx-to-phish-office-365-credentials/)
+    - desc: How to set up Evilginx to phish Office 365 credentials - JanBakker.tech
+    - tags: phish
+- [Bypassing EDRs With EDR-Preloading](https://malwaretech.com/2024/02/bypassing-edrs-with-edr-preload.html)
+    - desc: Bypassing EDRs With EDR-Preloading
+    - tags: maldev
+- [CVE-2024-21412: Water Hydra Targets Traders with Microsoft Defender SmartScreen Zero-Day](https://www.trendmicro.com/en_us/research/24/b/cve202421412-water-hydra-targets-traders-with-windows-defender-s.html)
+    - desc: CVE-2024-21412: Water Hydra Targets Traders with Microsoft Defender SmartScreen Zero-Day
+    - tags: nday, threatinel
+- [CharmingCypress: Innovating Persistence | Volexity](https://www.volexity.com/blog/2024/02/13/charmingcypress-innovating-persistence/)
+    - desc: CharmingCypress: Innovating Persistence | Volexity
+    - tags: re, threatintel
+- [The Risks of the #MonikerLink Bug in Microsoft Outlook and the Big Picture - Check Point Research](https://research.checkpoint.com/2024/the-risks-of-the-monikerlink-bug-in-microsoft-outlook-and-the-big-picture/)
+    - desc: The Risks of the #MonikerLink Bug in Microsoft Outlook and the Big Picture - Check Point Research
+    - tags: nday, research
+
+### tools
+- [waelmas/frameless-bitb](https://github.com/waelmas/frameless-bitb)
+    - desc: A new approach to Browser In The Browser (BITB) without the use of iframes, allowing the bypass of traditional framebusters implemented by login pages like Microsoft and the use with Evilginx.
+    - tags: phish, redteam
+- [nodauf/GoMapEnum](https://github.com/nodauf/GoMapEnum)
+    - desc: User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin
+    - tags: windows, postex
+- [NYAN-x-CAT/AsyncRAT-C-Sharp](https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp)
+    - desc: Open-Source Remote Administration Tool For Windows C# (RAT)
+    - tags: windows
+- [DebugPrivilege/InsightEngineering](https://github.com/DebugPrivilege/InsightEngineering)
+    - desc: Hardcore Debugging
+    - tags: re, maldev
+- [rasta-mouse/CsWhispers](https://github.com/rasta-mouse/CsWhispers)
+    - desc: Source generator to add D/Invoke and indirect syscall methods to a C# project.
+    - tags: maldev
+- [Slowerzs/ThievingFox](https://github.com/Slowerzs/ThievingFox/)
+    - desc: collection of post-exploitation tools to gather credentials from various password managers and windows utilities.
+    - tags: postex, windows
+- [plerionhq/conditional-love](https://github.com/plerionhq/conditional-love/)
+    - desc: An AWS metadata enumeration tool by Plerion
+    - tags: cloud
+- [spyr0-sec/AutomatedBadLab](https://github.com/spyr0-sec/AutomatedBadLab)
+    - desc: Scripts to provision vulnerable and testing environments using AutomatedLab
+    - tags: utils, windows, lab
+- [The-Z-Labs/bof-launcher](https://github.com/The-Z-Labs/bof-launcher)
+    - desc: Beacon Object File (BOF) launcher - library for executing BOF files in C/C++/Zig applications
+    - tags: maldev, redteam, windows
+- [Xre0uS/MultiDump](https://github.com/Xre0uS/MultiDump)
+    - desc: MultiDump is a post-exploitation tool for dumping and extracting LSASS memory discreetly.
+    - tags: postex, windows
+- [hoodoer/JS-Tap](https://github.com/hoodoer/JS-Tap)
+    - desc: JavaScript payload and supporting software to be used as XSS payload or post exploitation implant to monitor users as they use the targeted application.
+    - tags: phish, redteam
+- [leandrofroes/gftrace](https://github.com/leandrofroes/gftrace)
+    - desc: A command line Windows API tracing tool for Golang binaries.
+    - tags: utils
