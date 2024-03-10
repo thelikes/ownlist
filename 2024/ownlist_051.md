@@ -1,0 +1,92 @@
+## Issue 051 - Mar 2024
+
+### writeups
+- [MacOS CI/CD with Tart. How Snowflake’s Red Team uses Tart and… | by Justin Bui | Snowflake | Feb, 2024 | Medium](https://medium.com/snowflake/macos-ci-cd-with-tart-d3c0e511f3c9)
+    - desc: MacOS CI/CD with Tart. How Snowflake’s Red Team uses Tart and… | by Justin Bui | Snowflake | Feb, 2024 | Medium
+    - tags: infra, mac
+- [MSSQL linked servers: abusing ADSI for password retrieval](https://www.tarlogic.com/blog/linked-servers-adsi-passwords/)
+    - desc: MSSQL linked servers: abusing ADSI for password retrieval
+    - tags: redteam,windows
+- [Azure AD Security Defaults/MFA Bypass with Graph API | by Root ♊ | Medium](https://rootsecdev.medium.com/azure-ad-security-defaults-mfa-bypass-with-graph-api-86a5d6f57d4a)
+    - desc: Azure AD Security Defaults/MFA Bypass with Graph API | by Root ♊ | Medium
+    - tags: cloud,redteam
+- [Customizing Sliver - Part 1 - hn security](https://security.humanativaspa.it/customizing-sliver-part-1/)
+    - desc: Customizing Sliver - Part 1 - hn security
+    - tags: c2,redteam
+- [“Can't Stop the Phish” - Tips for Warming Up Your Email Domain Right - White Knight Labs](https://whiteknightlabs.com/2023/05/09/cant-stop-the-phish-tips-for-warming-up-your-email-domain-right/)
+    - desc: “Can't Stop the Phish” - Tips for Warming Up Your Email Domain Right - White Knight Labs
+    - tags: redteam,phish
+- [Hello: I’m your ADCS server and I want to  authenticate against you – Decoder's Blog](https://decoder.cloud/2024/02/26/hello-im-your-adcs-server-and-i-want-to-authenticate-against-you/)
+    - desc: Hello: I’m your ADCS server and I want to  authenticate against you – Decoder's Blog
+    - tags: ad
+- [Ransomware in the honeypot: how we capture keys with sticky canary files — Elastic Security Labs](https://www.elastic.co/security-labs/ransomware-in-the-honeypot-how-we-capture-keys)
+    - desc: Ransomware in the honeypot: how we capture keys with sticky canary files — Elastic Security Labs
+    - tags: detection
+- [.NET Threadless Process Injection | by Daniel Santos | Feb, 2024 | Medium](https://vovohelo.medium.com/net-threadless-process-injection-6c389a9ce585)
+    - desc: .NET Threadless Process Injection | by Daniel Santos | Feb, 2024 | Medium
+    - tags: maldev
+- [CharmingCypress: Innovating Persistence | Volexity](https://www.volexity.com/blog/2024/02/13/charmingcypress-innovating-persistence/)
+    - desc: CharmingCypress: Innovating Persistence | Volexity
+    - tags: phish,init
+- [The Untold Story of the Boldest Supply-Chain Hack Ever](https://www.wired.com/story/the-untold-story-of-solarwinds-the-boldest-supply-chain-hack-ever/)
+    - desc: Sunburst Orion CI CD compromise & software fix
+    - tags: apt
+- [You can not simply publicly access private secure links, can you? | Vin01’s Blog](https://vin01.github.io/piptagole/security-tools/soar/urlscan/hybrid-analysis/data-leaks/urlscan.io/cloudflare-radar%22/2024/03/07/url-database-leaks-private-urls.html)
+    - desc: You can not simply publicly access private secure links, can you? | Vin01’s Blog
+    - tags: research
+
+### tools
+- [Idov31/Nidhogg](https://github.com/Idov31/Nidhogg)
+    - desc: Nidhogg is an all-in-one simple to use rootkit.
+    - tags: redteam, maldev
+- [Hiding In PlainSight - Indirect Syscall is Dead! Long Live Custom Call Stacks](https://0xdarkvortex.dev/hiding-in-plainsight/)
+    - desc: Hiding In PlainSight - Indirect Syscall is Dead! Long Live Custom Call Stacks
+    - tags: maldev
+- [CDPSvc DLL Hijacking - From LOCAL SERVICE to SYSTEM | itm4n's blog](https://itm4n.github.io/cdpsvc-dll-hijacking/)
+    - desc: CDPSvc DLL Hijacking - From LOCAL SERVICE to SYSTEM | itm4n's blog
+    - tags: maldev
+- [Idov31/Jormungandr](https://github.com/Idov31/Jormungandr)
+    - desc: Jormungandr is a kernel implementation of a COFF loader, allowing kernel developers to load and execute their COFFs in the kernel.
+    - tags: maldev,kernel
+- [hakaioffsec/coffee](https://github.com/hakaioffsec/coffee)
+    - desc: A COFF loader made in Rust
+    - tags: maldev,redteam,c2
+- [mertdas/SharpTerminator](https://github.com/mertdas/SharpTerminator)
+    - desc: Terminate AV/EDR Processes using kernel driver
+    - tags: redteam,windows
+- [d3ext/hooka](https://github.com/d3ext/hooka)
+    - desc: Evasive shellcode loader, hooks detector and more
+    - tags: maldev
+- [r0oth3x49/ghauri](https://github.com/r0oth3x49/ghauri)
+    - desc: An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws
+    - tags: web
+- [Xacone/BestEdrOfThemarket](https://github.com/Xacone/BestEdrOfThemarket)
+    - desc: Little AV/EDR bypassing lab for training & learning purposes
+    - tags: c2,maldev,redteam,opsec
+ - [fortra/No-Consolation](https://github.com/fortra/No-Consolation)
+    - desc: A BOF that runs unmanaged PEs inline
+    - tags: maldev,c2
+- [jborean93/dpapi-ng](https://github.com/jborean93/dpapi-ng)
+    - desc: Python DPAPI NG Decryptor for non-Windows Platforms
+    - tags: windows
+- [RedTeamPentesting/resocks](https://github.com/RedTeamPentesting/resocks)
+    - desc: mTLS-Encrypted Back-Connect SOCKS5 Proxy
+    - tags: redteam,utility
+- [garrettfoster13/sccmhunter](https://github.com/garrettfoster13/sccmhunter)
+    - desc: tool for identifying, profiling, and attacking SCCM related assets 
+    - tags: ad,redteam
+- [nettitude/ETWHash](https://github.com/nettitude/ETWHash)
+    - desc: C# POC to extract NetNTLMv1/v2 hashes from ETW provider
+    - tags: ad
+- [0xNslabs/CanaryTokenScanner](https://github.com/0xNslabs/CanaryTokenScanner)
+    - desc: Script designed to identify Canary Tokens within Microsoft Office documents and Acrobat Reader PDF (docx, xlsx, pptx, pdf).
+    - tags: redteam,util
+- [Mr-Un1k0d3r/MsGraphFunzy](https://github.com/Mr-Un1k0d3r/MsGraphFunzy)
+    - desc: Scripts to interact with Microsoft Graph APIs
+    - tags: cloud,azure
+- [dockur/windows](https://github.com/dockur/windows)
+    - desc: Windows in a Docker container.
+    - tags: util
+- [Docker](https://hub.docker.com/r/snovvcrash/ollvm13)
+    - desc: Docker
+    - tags: maldev,util
